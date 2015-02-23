@@ -6,6 +6,17 @@ public class Restaurant {
 	private float price;
 	private RestaurantCategory category;
 
+	public Restaurant(int id, String name, String description, String country,
+			float price, RestaurantCategory category) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.country = country;
+		this.price = price;
+		this.category = category;
+	}
+
 	public int getId() {
 		return id;
 	}

@@ -1,5 +1,5 @@
 package writers;
 
-public class HTMLWriter extends Writer {
+public class HTMLWriter extends IWriter {
 
 }

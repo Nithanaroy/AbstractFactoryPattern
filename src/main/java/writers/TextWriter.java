@@ -1,5 +1,5 @@
 package writers;
 
-public class TextWriter extends Writer {
+public class TextWriter extends IWriter {
 
 }

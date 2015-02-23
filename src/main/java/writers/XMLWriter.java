@@ -1,5 +1,5 @@
 package writers;
 
-public class XMLWriter extends Writer {
+public class XMLWriter extends IWriter {
 
 }

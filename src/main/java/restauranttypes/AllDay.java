@@ -1,5 +1,5 @@
 package restauranttypes;
 
-public class AllDay extends RestaurantType {
+public class AllDay extends IRestaurantType {
 
 }

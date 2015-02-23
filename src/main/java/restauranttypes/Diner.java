@@ -1,5 +1,5 @@
 package restauranttypes;
 
-public class Diner extends RestaurantType {
+public class Diner extends IRestaurantType {
 
 }
