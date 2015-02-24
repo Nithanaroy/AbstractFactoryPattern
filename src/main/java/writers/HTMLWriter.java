@@ -1,8 +1,12 @@
 package writers;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
+import java.util.Map;
+
 import restaurant.FoodItem;
 import restaurant.FoodItemCategory;
-import restauranttypes.IRestaurantType;
 
 import com.hp.gagawa.java.Document;
 import com.hp.gagawa.java.DocumentType;
@@ -19,7 +23,8 @@ import com.hp.gagawa.java.elements.Ul;
 public class HTMLWriter extends IWriter {
 
 	@Override
-	public void createDocument(FoodItem[] items) {
+	public void createDocument(Map<FoodItemCategory, FoodItem[]> items,
+			String outputFilePath) throws FileNotFoundException {
 
 		Document document = new Document(DocumentType.XHTMLTransitional);
 		document.head.appendChild(new Title().appendChild(new Text("Menu")));
@@ -28,20 +33,20 @@ public class HTMLWriter extends IWriter {
 		// TODO: This should be <center> tag instead of <p>
 		body.appendChild(new P().appendChild(new Text("Menu")));
 
-		FoodItemCategory[] categories = { FoodItemCategory.BREAKFAST,
-				FoodItemCategory.SNACK, FoodItemCategory.APPETIZER,
-				FoodItemCategory.LUNCH, FoodItemCategory.DINNER,
-				FoodItemCategory.DESSERT, FoodItemCategory.SIDE_DISH };
-		for (FoodItemCategory category : categories) {
-			body.appendChild(new H1().appendChild(new Text(category.toString()
-					.toUpperCase())));
-			body.appendChild(getHtmlForCategory(IRestaurantType.filter(items,
-					category)));
+		for (FoodItemCategory category : foodCategoriesPrintOrder) {
+			if (items.containsKey(category)) {
+				body.appendChild(new H1().appendChild(new Text(category
+						.toString().toUpperCase())));
+				body.appendChild(getHtmlForCategory(items.get(category)));
+			}
 		}
 
-		// Output the HTML.
-		System.out.println(document.write());
-
+		// Save as a HTML file
+		// TODO: Curate the path
+		PrintWriter printer = new PrintWriter(new FileOutputStream(
+				outputFilePath));
+		printer.println(document.write());
+		printer.close();
 	}
 
 	private Ul getHtmlForCategory(FoodItem[] breakfastItems) {

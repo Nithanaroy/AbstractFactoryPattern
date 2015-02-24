@@ -1,35 +1,37 @@
 package factory;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Map;
 
 import readers.IReader;
 import readers.JSONReader;
 import restaurant.FoodItem;
+import restaurant.FoodItemCategory;
 import restauranttypes.AllDay;
+import writers.HTMLWriter;
+import writers.IWriter;
 
 public class JsonHtmlAllDay extends IGenerateMenu {
 
-	public JsonHtmlAllDay(String _foodItemsFilePath, String _countryCode) {
-		super(_foodItemsFilePath, _countryCode);
-	}
-
 	@Override
-	public FoodItem[] saveFoodItems() throws IOException {
+	public FoodItem[] fetchFoodItems(String inputFilePath) throws IOException {
 		IReader r = new JSONReader();
-		allItems = r.processDocument(foodItemsFilePath);
-		return allItems;
+		return r.processDocument(inputFilePath);
 	}
 
 	@Override
-	public FoodItem[] filterItemByRestaurantCategory(FoodItem[] foodItems) {
+	public Map<FoodItemCategory, FoodItem[]> groupItemsByRestaurantCategory(
+			FoodItem[] foodItems) {
 		AllDay allDayRestaurant = new AllDay();
-		return allDayRestaurant.getRelevantFoodItems(foodItems);
+		return allDayRestaurant.getRelevantFoodItemsByCategory(foodItems);
 	}
 
 	@Override
-	public void printMenu(FoodItem[] items) {
-		// TODO Auto-generated method stub
-
+	public void printMenu(Map<FoodItemCategory, FoodItem[]> items,
+			String outputFilePath) throws FileNotFoundException {
+		IWriter w = new HTMLWriter();
+		w.createDocument(items, outputFilePath);
 	}
 
 }

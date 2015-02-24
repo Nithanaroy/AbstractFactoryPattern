@@ -15,7 +15,9 @@ public class JSONReader extends IReader {
 	@Override
 	public FoodItem[] processDocument(String path) throws IOException {
 		// check if JSON
+		// TODO: check if JSON
 		// Read JSON file
+		// TODO: Curate the path
 		String inp;
 		try (FileInputStream inputStream = new FileInputStream(path)) {
 			inp = IOUtils.toString(inputStream);

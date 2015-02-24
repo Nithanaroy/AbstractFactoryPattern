@@ -1,21 +1,25 @@
 package client;
 
+import java.util.Map;
+
 import org.json.JSONObject;
 
-import readers.IReader;
-import readers.JSONReader;
 import restaurant.FoodItem;
-import writers.HTMLWriter;
-import writers.IWriter;
+import restaurant.FoodItemCategory;
+import factory.IGenerateMenu;
+import factory.JsonHtmlAllDay;
 
 public class Client {
 
 	public static void main(String[] args) throws Exception {
-		IReader r = new JSONReader();
-		FoodItem[] items = r
-				.processDocument("D:\\Cloud\\Dropbox\\Personal Stuff\\ASU Acads\\Sem 2\\Software Design\\Assignments\\1. Design Patters\\Input\\FoodItemData.json");
-		IWriter w = new HTMLWriter();
-		w.createDocument(items);
+		String inpFilePath = "D:\\Cloud\\Dropbox\\Personal Stuff\\ASU Acads\\Sem 2\\Software Design\\Assignments\\1. Design Patters\\Input\\FoodItemData.json";
+		String outFilePath = "C:\\Users\\Nitin Pasumarthy\\Desktop\\JsonAlldayGBMenu.html";
+		IGenerateMenu menuGenerator = new JsonHtmlAllDay();
+		FoodItem[] allItems = menuGenerator.fetchFoodItems(inpFilePath);
+		allItems = menuGenerator.filterItemsForCountry("GB", allItems);
+		Map<FoodItemCategory, FoodItem[]> groupedItems = menuGenerator
+				.groupItemsByRestaurantCategory(allItems);
+		menuGenerator.printMenu(groupedItems, outFilePath);
 		System.out.println();
 	}
 
