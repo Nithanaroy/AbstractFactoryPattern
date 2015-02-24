@@ -1,12 +1,18 @@
 package restaurant;
 
-public enum RestaurantCategory {
-	DINER("Diner"), ALL_DAY("All Day"), EVENING_ONLY("Evening Only"), UNKNOWN(
-			"Unknown");
+public enum FoodItemCategory {
+	// BREAKFAST("Breakfast"), LUNCH("Lunch"), SNACK("Snack"),
+	// SIDE_DISH("Side Items"), APPETIZER(
+	// "Appetizer"), DINNER("Dinner"), DESSERT("Dessert"), UNKNOWN(
+	// "Unknown");
+
+	BREAKFAST("Breakfast"), LUNCH("Lunch"), SNACK("Snack"), SIDE_DISH(
+			"Side_Dish"), APPETIZER("Appetizer"), DINNER("Dinner"), DESSERT(
+			"Dessert"), UNKNOWN("Unknown");
 
 	private final String displayName;
 
-	RestaurantCategory(String displayName) {
+	FoodItemCategory(String displayName) {
 		this.displayName = displayName;
 	}
 
@@ -20,7 +26,7 @@ public enum RestaurantCategory {
 		if (category.equalsIgnoreCase("Snack"))
 			return FoodItemCategory.SNACK;
 
-		if (category.equalsIgnoreCase("Side Items"))
+		if (category.equalsIgnoreCase("Side Dish"))
 			return FoodItemCategory.SIDE_DISH;
 
 		if (category.equalsIgnoreCase("Appetizer"))

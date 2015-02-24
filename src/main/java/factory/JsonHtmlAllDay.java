@@ -1,26 +1,33 @@
 package factory;
 
-import restaurant.Restaurant;
-import restaurant.RestaurantCategory;
+import java.io.IOException;
 
-public class JsonHtmlAllDay implements IGenerateMenu {
+import readers.IReader;
+import readers.JSONReader;
+import restaurant.FoodItem;
+import restauranttypes.AllDay;
 
-	public Restaurant[] fetchRestaurants() {
-		// TODO Auto-generated method stub
-		return null;
+public class JsonHtmlAllDay extends IGenerateMenu {
+
+	public JsonHtmlAllDay(String _foodItemsFilePath, String _countryCode) {
+		super(_foodItemsFilePath, _countryCode);
 	}
 
-	public Restaurant[] filterRestaurantsForCountry(String countryCode) {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public FoodItem[] saveFoodItems() throws IOException {
+		IReader r = new JSONReader();
+		allItems = r.processDocument(foodItemsFilePath);
+		return allItems;
 	}
 
-	public Restaurant[] filterRestaurantsByCategory(RestaurantCategory category) {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public FoodItem[] filterItemByRestaurantCategory(FoodItem[] foodItems) {
+		AllDay allDayRestaurant = new AllDay();
+		return allDayRestaurant.getRelevantFoodItems(foodItems);
 	}
 
-	public void printMenu(Restaurant[] restaurants) {
+	@Override
+	public void printMenu(FoodItem[] items) {
 		// TODO Auto-generated method stub
 
 	}

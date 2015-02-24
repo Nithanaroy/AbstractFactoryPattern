@@ -1,10 +1,12 @@
 package readers;
 
-import restaurant.Restaurant;
+import java.io.IOException;
+
+import restaurant.FoodItem;
 
 
 public abstract class IReader {
 
-	abstract Restaurant[] processDocument(String path);
+	abstract public FoodItem[] processDocument(String path) throws IOException;
 	
 }

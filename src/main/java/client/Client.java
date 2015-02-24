@@ -1,50 +1,32 @@
 package client;
 
-import org.json.simple.parser.ParseException;
-
-import jdk.nashorn.internal.parser.JSONParser;
-
-import org.json.JSONArray;
 import org.json.JSONObject;
+
+import readers.IReader;
+import readers.JSONReader;
+import restaurant.FoodItem;
+import writers.HTMLWriter;
+import writers.IWriter;
 
 public class Client {
 
-	public static void main(String[] args) {
-		// JSONReader reader = new JSONReader();
-		// Restaurant[] res = reader.processDocument("");
-
-		javaToJson();
-
-		JSONParser parser = new JSONParser(null, null);
-		String s = "[0,{\"1\":{\"2\":{\"3\":{\"4\":[5,{\"6\":7}]}}}}]";
-		try {
-			Object obj = parser.parse();
-			JSONArray array = (JSONArray) obj;
-			System.out.println("The 2nd element of array");
-			System.out.println(array.get(1));
-			System.out.println();
-
-			JSONObject obj2 = (JSONObject) array.get(1);
-			System.out.println("Field \"1\"");
-			System.out.println(obj2.get("1"));
-
-			s = "{}";
-			obj = parser.parse(s);
-			System.out.println(obj);
-
-			s = "[5,]";
-			obj = parser.parse(s);
-			System.out.println(obj);
-
-			s = "[5,,2]";
-			obj = parser.parse(s);
-			System.out.println(obj);
-		} catch (ParseException pe) {
-			System.out.println("position: " + pe.getPosition());
-			System.out.println(pe);
-		}
+	public static void main(String[] args) throws Exception {
+		IReader r = new JSONReader();
+		FoodItem[] items = r
+				.processDocument("D:\\Cloud\\Dropbox\\Personal Stuff\\ASU Acads\\Sem 2\\Software Design\\Assignments\\1. Design Patters\\Input\\FoodItemData.json");
+		IWriter w = new HTMLWriter();
+		w.createDocument(items);
+		System.out.println();
 	}
 
+	@SuppressWarnings("unused")
+	private static void jsonToJava() {
+		String s = "{\"1\":{\"2\":{\"3\":{\"4\":[5,{\"6\":7}]}}}}";
+		JSONObject json = new JSONObject(s);
+		json.get("1");
+	}
+
+	@SuppressWarnings("unused")
 	private static void javaToJson() {
 		JSONObject obj = new JSONObject();
 

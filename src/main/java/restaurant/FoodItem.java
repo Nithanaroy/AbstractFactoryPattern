@@ -1,13 +1,13 @@
 package restaurant;
 
-public class Restaurant {
+public class FoodItem {
 	private int id;
 	private String name, description, country;
 	private float price;
-	private RestaurantCategory category;
+	private FoodItemCategory category;
 
-	public Restaurant(int id, String name, String description, String country,
-			float price, RestaurantCategory category) {
+	public FoodItem(int id, String name, String description, String country,
+			float price, FoodItemCategory category) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -57,11 +57,11 @@ public class Restaurant {
 		this.price = price;
 	}
 
-	public RestaurantCategory getCategory() {
+	public FoodItemCategory getCategory() {
 		return category;
 	}
 
-	public void setCategory(RestaurantCategory category) {
+	public void setCategory(FoodItemCategory category) {
 		this.category = category;
 	}
 

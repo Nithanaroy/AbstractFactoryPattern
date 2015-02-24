@@ -1,14 +1,13 @@
 package readers;
 
-import restaurant.Restaurant;
+import restaurant.FoodItem;
 
 public class XMLReader extends IReader {
 
 	@Override
-	Restaurant[] processDocument(String path) {
+	public FoodItem[] processDocument(String path) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
 
 }
