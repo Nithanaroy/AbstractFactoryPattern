@@ -15,6 +15,7 @@ import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Text;
 
 import restaurant.FoodItem;
 import restaurant.FoodItemCategory;
@@ -67,20 +68,29 @@ public class XMLWriter extends IWriter {
 		for (FoodItem item : foodItems) {
 
 			Element menuItemNode = doc.createElement("MenuItem");
-			menuItemNode.appendChild(doc.createElement("Name").appendChild(
-					doc.createTextNode(item.getName())));
+			Element nameNode = doc.createElement("Name");
+			Text nameTextNode = doc.createTextNode(item.getName());
+			nameNode.appendChild(nameTextNode);
+			menuItemNode.appendChild(nameNode);
 
 			Element priceNode = doc.createElement("Price");
 			// TODO: Get the right currency code
-			priceNode.appendChild(doc.createElement("CurrencyCode")
-					.appendChild(doc.createTextNode("CODE")));
-			priceNode.appendChild(doc.createElement("Amount").appendChild(
-					doc.createTextNode(item.getFormattedPrice(""))));
+			Text currencyCodeTextNode = doc.createTextNode("");
+			Element currencyCodeNode = doc.createElement("CurrencyCode");
+			currencyCodeNode.appendChild(currencyCodeTextNode);
+			priceNode.appendChild(currencyCodeNode);
+
+			Text amountTextNode = doc.createTextNode(item.getFormattedPrice(""));
+			Element amountNode = doc.createElement("Amount");
+			amountNode.appendChild(amountTextNode);
+			priceNode.appendChild(amountNode);
 
 			menuItemNode.appendChild(priceNode);
 
-			menuItemNode.appendChild(doc.createElement("Description")
-					.appendChild(doc.createTextNode(item.getDescription())));
+			Element descriptionNode = doc.createElement("Description");
+			Text descriptionTextNode = doc.createTextNode(item.getDescription()); 
+			descriptionNode.appendChild(descriptionTextNode);
+			menuItemNode.appendChild(descriptionNode);
 
 			categoryNode.appendChild(menuItemNode);
 		}
