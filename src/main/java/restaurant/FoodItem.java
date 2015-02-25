@@ -1,5 +1,7 @@
 package restaurant;
 
+import java.text.NumberFormat;
+
 public class FoodItem {
 	private int id;
 	private String name, description, country;
@@ -51,6 +53,13 @@ public class FoodItem {
 
 	public float getPrice() {
 		return price;
+	}
+
+	public String getFormattedPrice(String currencyCode) {
+		// TODO: Use the currency code
+		NumberFormat formatter = NumberFormat.getCurrencyInstance();
+		formatter = NumberFormat.getNumberInstance();
+		return formatter.format(this.getPrice());
 	}
 
 	public void setPrice(float price) {

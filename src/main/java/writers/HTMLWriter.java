@@ -1,8 +1,6 @@
 package writers;
 
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
 import java.util.Map;
 
 import restaurant.FoodItem;
@@ -37,21 +35,17 @@ public class HTMLWriter extends IWriter {
 			if (items.containsKey(category)) {
 				body.appendChild(new H1().appendChild(new Text(category
 						.toString().toUpperCase())));
-				body.appendChild(getHtmlForCategory(items.get(category)));
+				body.appendChild(getHtmlForItems(items.get(category)));
 			}
 		}
 
 		// Save as a HTML file
-		// TODO: Curate the path
-		PrintWriter printer = new PrintWriter(new FileOutputStream(
-				outputFilePath));
-		printer.println(document.write());
-		printer.close();
+		saveAsFile(document.write(), outputFilePath);
 	}
 
-	private Ul getHtmlForCategory(FoodItem[] breakfastItems) {
+	private Ul getHtmlForItems(FoodItem[] items) {
 		Ul itemsList = new Ul();
-		for (FoodItem item : breakfastItems) {
+		for (FoodItem item : items) {
 			Li foodDetail = new Li();
 			foodDetail.appendChild(new Text(item.getName()));
 			foodDetail.appendChild(new Br());
@@ -59,7 +53,7 @@ public class HTMLWriter extends IWriter {
 					.getDescription())));
 			foodDetail.appendChild(new Br());
 			// TODO: Add the currency code
-			foodDetail.appendChild(new Text(item.getPrice()));
+			foodDetail.appendChild(new Text(item.getFormattedPrice("")));
 			itemsList.appendChild(foodDetail);
 		}
 		return itemsList;
