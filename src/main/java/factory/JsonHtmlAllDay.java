@@ -9,6 +9,7 @@ import readers.JSONReader;
 import restaurant.FoodItem;
 import restaurant.FoodItemCategory;
 import restauranttypes.AllDay;
+import restauranttypes.IRestaurantType;
 import writers.HTMLWriter;
 import writers.IWriter;
 
@@ -23,7 +24,7 @@ public class JsonHtmlAllDay extends IGenerateMenu {
 	@Override
 	public Map<FoodItemCategory, FoodItem[]> groupItemsByRestaurantCategory(
 			FoodItem[] foodItems) {
-		AllDay allDayRestaurant = new AllDay();
+		IRestaurantType allDayRestaurant = new AllDay();
 		return allDayRestaurant.getRelevantFoodItemsByCategory(foodItems);
 	}
 

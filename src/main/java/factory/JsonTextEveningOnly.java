@@ -1,28 +1,37 @@
 package factory;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Map;
+
+import readers.IReader;
+import readers.JSONReader;
 import restaurant.FoodItem;
 import restaurant.FoodItemCategory;
+import restauranttypes.EveningOnly;
+import restauranttypes.IRestaurantType;
+import writers.IWriter;
+import writers.TextWriter;
 
-public class JsonTextEveningOnly implements IGenerateMenu {
+public class JsonTextEveningOnly extends IGenerateMenu {
 
-	public FoodItem[] fetchFoodItems() {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public FoodItem[] fetchFoodItems(String inputFilePath) throws IOException {
+		IReader r = new JSONReader();
+		return r.processDocument(inputFilePath);
 	}
 
-	public FoodItem[] filterItemsForCountry(String countryCode) {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public Map<FoodItemCategory, FoodItem[]> groupItemsByRestaurantCategory(
+			FoodItem[] foodItems) {
+		IRestaurantType restaurant = new EveningOnly();
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);
 	}
 
-	public FoodItem[] filterRestaurantsByCategory(FoodItemCategory category) {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public void printMenu(Map<FoodItemCategory, FoodItem[]> items,
+			String outputFilePath) throws FileNotFoundException {
+		IWriter w = new TextWriter();
+		w.createDocument(items, outputFilePath);
 	}
-
-	public void printMenu(FoodItem[] restaurants) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
