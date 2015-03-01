@@ -76,7 +76,7 @@ public class XMLWriter extends IWriter {
 			Element priceNode = doc.createElement("Price");
 			// TODO: Get the right currency code
 			Text currencyCodeTextNode = doc.createTextNode("");
-			Element currencyCodeNode = doc.createElement("CurrencyCode");
+			Element currencyCodeNode = doc.createElement("");
 			currencyCodeNode.appendChild(currencyCodeTextNode);
 			priceNode.appendChild(currencyCodeNode);
 

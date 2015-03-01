@@ -1,5 +1,6 @@
 package writers;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
@@ -21,8 +22,8 @@ public abstract class IWriter {
 			throws FileNotFoundException;
 
 	protected final void saveAsFile(String content, String filename) throws FileNotFoundException {
-		// TODO: Curate the path
-		PrintWriter printer = new PrintWriter(new FileOutputStream(filename));
+		String filepath = new File(filename).getAbsolutePath(); 
+		PrintWriter printer = new PrintWriter(new FileOutputStream(filepath));
 		printer.println(content);
 		printer.close();
 	}

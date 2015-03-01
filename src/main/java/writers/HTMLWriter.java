@@ -28,8 +28,8 @@ public class HTMLWriter extends IWriter {
 		document.head.appendChild(new Title().appendChild(new Text("Menu")));
 		Body body = document.body;
 
-		// TODO: This should be <center> tag instead of <p>
-		body.appendChild(new P().appendChild(new Text("Menu")));
+		// Was asked to use <center> tag
+		body.appendChild(new P().setStyle("text-align:center").appendChild(new Text("Menu")));
 
 		for (FoodItemCategory category : foodCategoriesPrintOrder) {
 			if (items.containsKey(category)) {
