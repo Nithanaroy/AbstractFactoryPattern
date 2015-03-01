@@ -1,0 +1,2426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_TXFAwL-uEeSLTMJUif1tmg">
+  <modelElement href="restaurant.uml#_SZCEIL-uEeSLTMJUif1tmg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YIUiML-uEeSLTMJUif1tmg" sourceAnchor="197.0,0.0" targetAnchor="232.0,73.0" superClass="_YIceAL-uEeSLTMJUif1tmg" subClass="_YF78kL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XBHpkL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a521sL-uEeSLTMJUif1tmg" sourceY="-28" targetX="-1094" targetY="27"/>
+    <bendpoints xmi:id="_a521sb-uEeSLTMJUif1tmg" sourceX="1094" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YJYSIL-uEeSLTMJUif1tmg" sourceAnchor="188.0,0.0" targetAnchor="232.0,73.0" superClass="_YIceAL-uEeSLTMJUif1tmg" subClass="_YJauYL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XBNJIL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a58VQL-uEeSLTMJUif1tmg" sourceY="-166" targetX="-827" targetY="27"/>
+    <bendpoints xmi:id="_a58VQb-uEeSLTMJUif1tmg" sourceX="827" sourceY="-166" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YKLjYL-uEeSLTMJUif1tmg" sourceAnchor="314.0,11.0" targetAnchor="153.0,54.0" superClass="_YKN_oL-uEeSLTMJUif1tmg" subClass="_YKGq4L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W_l_kb-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a5__ob-uEeSLTMJUif1tmg" sourceX="251" targetX="30" targetY="66"/>
+    <bendpoints xmi:id="_a5__or-uEeSLTMJUif1tmg" sourceX="251" sourceY="-39" targetX="30" targetY="27"/>
+    <bendpoints xmi:id="_a5__o7-uEeSLTMJUif1tmg" sourceX="221" sourceY="-39" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YKbbAL-uEeSLTMJUif1tmg" sourceAnchor="395.0,27.0" targetAnchor="232.0,73.0" superClass="_YIceAL-uEeSLTMJUif1tmg" subClass="_YKd3QL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XA61Qb-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6BNwL-uEeSLTMJUif1tmg" sourceX="74" targetX="-546" targetY="358"/>
+    <bendpoints xmi:id="_a6BNwb-uEeSLTMJUif1tmg" sourceX="74" sourceY="-331" targetX="-546" targetY="27"/>
+    <bendpoints xmi:id="_a6BNwr-uEeSLTMJUif1tmg" sourceX="620" sourceY="-331" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKnBML-uEeSLTMJUif1tmg" sourceAnchor="387.0,143.0" targetAnchor="685.0,270.0" target="_YNevAL-uEeSLTMJUif1tmg" source="_YKxZQL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XHcUAL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6B00L-uEeSLTMJUif1tmg" sourceX="362" targetY="693"/>
+    <nameVisual xmi:id="_YKrSoL-uEeSLTMJUif1tmg" text="">
+      <visualProperties xmi:id="_a6JwoL-uEeSLTMJUif1tmg" position="-327.5972906424472,-13.42684340391088"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKtH0L-uEeSLTMJUif1tmg" aggregationKind="NONE" name="category" navigable="true">
+      <modelElement href="restaurant.uml#_XFOGcL-uEeSLTMJUif1tmg"/>
+      <visualProperties xmi:id="_a6HUY7-uEeSLTMJUif1tmg" position="26.276754498103855,-31.928687536557845"/>
+      <visibility xmi:id="_YKwLIL-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YKvkEL-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKtu4L-uEeSLTMJUif1tmg" aggregationKind="NONE" name="">
+      <modelElement href="restaurant.uml#_XHc7EL-uEeSLTMJUif1tmg"/>
+      <visualProperties xmi:id="_a6Jwob-uEeSLTMJUif1tmg" position="-349.839848525608,661.6694595859617"/>
+      <visibility xmi:id="_YKwLIr-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YKwLIb-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YLfyAL-uEeSLTMJUif1tmg" sourceAnchor="157.0,0.0" targetAnchor="153.0,54.0" superClass="_YKN_oL-uEeSLTMJUif1tmg" subClass="_YLhnML-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W_bAcL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6DC8L-uEeSLTMJUif1tmg" sourceY="-28" targetX="-756" targetY="27"/>
+    <bendpoints xmi:id="_a6DC8b-uEeSLTMJUif1tmg" sourceX="756" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YL4zkL-uEeSLTMJUif1tmg" sourceAnchor="368.0,30.0" targetAnchor="0.0,97.0" superClass="_YL_hQL-uEeSLTMJUif1tmg" subClass="_YJTZoL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XBs4YL-uEeSLTMJUif1tmg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YL5aoL-uEeSLTMJUif1tmg" sourceAnchor="367.0,36.0" targetAnchor="251.0,99.0" superClass="_YL_hQL-uEeSLTMJUif1tmg" subClass="_YHA6oL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XB2CUL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a54D0L-uEeSLTMJUif1tmg" sourceX="823" targetX="5" targetY="412"/>
+    <bendpoints xmi:id="_a54D0b-uEeSLTMJUif1tmg" sourceX="823" sourceY="-336" targetX="5" targetY="76"/>
+    <bendpoints xmi:id="_a54D0r-uEeSLTMJUif1tmg" sourceX="818" sourceY="-336" targetY="76"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YL5aob-uEeSLTMJUif1tmg" sourceAnchor="516.0,36.0" targetAnchor="251.0,99.0" superClass="_YL_hQL-uEeSLTMJUif1tmg" subClass="_YJiDIL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_XCBogL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a58VQr-uEeSLTMJUif1tmg" sourceX="40" targetX="-5" targetY="142"/>
+    <bendpoints xmi:id="_a588UL-uEeSLTMJUif1tmg" sourceX="40" sourceY="-66" targetX="-5" targetY="76"/>
+    <bendpoints xmi:id="_a588Ub-uEeSLTMJUif1tmg" sourceX="45" sourceY="-66" targetY="76"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMX7wL-uEeSLTMJUif1tmg" sourceAnchor="419.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YKUtUL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W9NZ8L-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6AmsL-uEeSLTMJUif1tmg" sourceX="2088" targetX="2746" targetY="1011"/>
+    <bendpoints xmi:id="_a6Amsb-uEeSLTMJUif1tmg" sourceX="2088" sourceY="-984" targetX="2746" targetY="27"/>
+    <bendpoints xmi:id="_a6Amsr-uEeSLTMJUif1tmg" sourceX="-658" sourceY="-984" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMX7wb-uEeSLTMJUif1tmg" sourceAnchor="210.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YLNeIL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W9VVwL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6Cb4L-uEeSLTMJUif1tmg" sourceY="-201" targetX="-624" targetY="270"/>
+    <bendpoints xmi:id="_a6Cb4b-uEeSLTMJUif1tmg" sourceX="-72" sourceY="-201" targetX="-696" targetY="270"/>
+    <bendpoints xmi:id="_a6Cb4r-uEeSLTMJUif1tmg" sourceX="-72" sourceY="-444" targetX="-696" targetY="27"/>
+    <bendpoints xmi:id="_a6Cb47-uEeSLTMJUif1tmg" sourceX="624" sourceY="-444" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMYi0L-uEeSLTMJUif1tmg" sourceAnchor="419.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YHrpAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W9d4oL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a57HIL-uEeSLTMJUif1tmg" sourceX="2025" targetX="2686" targetY="829"/>
+    <bendpoints xmi:id="_a57HIb-uEeSLTMJUif1tmg" sourceX="2025" sourceY="-802" targetX="2686" targetY="27"/>
+    <bendpoints xmi:id="_a57HIr-uEeSLTMJUif1tmg" sourceX="-661" sourceY="-802" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMYi0b-uEeSLTMJUif1tmg" sourceAnchor="0.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YMJ5UL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W9l0cL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6FfMb-uEeSLTMJUif1tmg" sourceX="-75" targetX="-1258" targetY="205"/>
+    <bendpoints xmi:id="_a6GGQL-uEeSLTMJUif1tmg" sourceX="-75" sourceY="-391" targetX="-1258" targetY="-186"/>
+    <bendpoints xmi:id="_a6GGQb-uEeSLTMJUif1tmg" sourceX="2751" sourceY="-391" targetX="1568" targetY="-186"/>
+    <bendpoints xmi:id="_a6GGQr-uEeSLTMJUif1tmg" sourceX="2751" sourceY="-178" targetX="1568" targetY="27"/>
+    <bendpoints xmi:id="_a6GGQ7-uEeSLTMJUif1tmg" sourceX="1183" sourceY="-178" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMYi0r-uEeSLTMJUif1tmg" sourceAnchor="210.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YHRZUL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W9twQL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a55R8L-uEeSLTMJUif1tmg" sourceY="-106" targetX="156" targetY="27"/>
+    <bendpoints xmi:id="_a55R8b-uEeSLTMJUif1tmg" sourceX="-156" sourceY="-106" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMZJ4L-uEeSLTMJUif1tmg" sourceAnchor="209.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YAOWIL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W91sEL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a51AgL-uEeSLTMJUif1tmg" sourceY="-28" targetX="1013" targetY="27"/>
+    <bendpoints xmi:id="_a52OoL-uEeSLTMJUif1tmg" sourceX="-1013" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMZJ4b-uEeSLTMJUif1tmg" sourceAnchor="55.0,92.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YJqmAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W99A0L-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a588Ur-uEeSLTMJUif1tmg" sourceY="218" targetX="-298" targetY="989"/>
+    <bendpoints xmi:id="_a59jYL-uEeSLTMJUif1tmg" sourceX="54" sourceY="218" targetX="-244" targetY="989"/>
+    <bendpoints xmi:id="_a59jYb-uEeSLTMJUif1tmg" sourceX="54" sourceY="492" targetX="-244" targetY="1263"/>
+    <bendpoints xmi:id="_a59jYr-uEeSLTMJUif1tmg" sourceX="3014" sourceY="492" targetX="2716" targetY="1263"/>
+    <bendpoints xmi:id="_a59jY7-uEeSLTMJUif1tmg" sourceX="3014" sourceY="-744" targetX="2716" targetY="27"/>
+    <bendpoints xmi:id="_a5-KcL-uEeSLTMJUif1tmg" sourceX="298" sourceY="-744" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMZw8L-uEeSLTMJUif1tmg" sourceAnchor="154.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YHZ8ML-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-E8oL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a555AL-uEeSLTMJUif1tmg" sourceY="-301" targetX="295" targetY="300"/>
+    <bendpoints xmi:id="_a555Ab-uEeSLTMJUif1tmg" sourceX="-364" sourceY="-301" targetX="-69" targetY="300"/>
+    <bendpoints xmi:id="_a555Ar-uEeSLTMJUif1tmg" sourceX="-364" sourceY="-574" targetX="-69" targetY="27"/>
+    <bendpoints xmi:id="_a555A7-uEeSLTMJUif1tmg" sourceX="-295" sourceY="-574" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMaYAL-uEeSLTMJUif1tmg" sourceAnchor="210.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YJ-IAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-OtoL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a5_YkL-uEeSLTMJUif1tmg" sourceY="-285" targetX="-471" targetY="-126"/>
+    <bendpoints xmi:id="_a5_Ykb-uEeSLTMJUif1tmg" sourceX="1979" sourceY="-285" targetX="1508" targetY="-126"/>
+    <bendpoints xmi:id="_a5_Ykr-uEeSLTMJUif1tmg" sourceX="1979" sourceY="-132" targetX="1508" targetY="27"/>
+    <bendpoints xmi:id="_a5__oL-uEeSLTMJUif1tmg" sourceX="471" sourceY="-132" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMaYAb-uEeSLTMJUif1tmg" sourceAnchor="0.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YMR1IL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-WCYL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6GtUL-uEeSLTMJUif1tmg" sourceX="-496" targetX="-1198" targetY="1089"/>
+    <bendpoints xmi:id="_a6GtUb-uEeSLTMJUif1tmg" sourceX="-496" sourceY="-1062" targetX="-1198" targetY="27"/>
+    <bendpoints xmi:id="_a6GtUr-uEeSLTMJUif1tmg" sourceX="702" sourceY="-1062" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMaYAr-uEeSLTMJUif1tmg" sourceAnchor="107.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YIFRoL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-fzYL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a57uML-uEeSLTMJUif1tmg" sourceY="-470" targetX="-249" targetY="27"/>
+    <bendpoints xmi:id="_a57uMb-uEeSLTMJUif1tmg" sourceX="249" sourceY="-470" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMa_EL-uEeSLTMJUif1tmg" sourceAnchor="115.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YGqVUL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-vD8L-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a53cwL-uEeSLTMJUif1tmg" sourceY="-392" targetX="425" targetY="27"/>
+    <bendpoints xmi:id="_a53cwb-uEeSLTMJUif1tmg" sourceX="-425" sourceY="-392" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMa_Eb-uEeSLTMJUif1tmg" sourceAnchor="0.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YLqxIL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-1KkL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6DqAL-uEeSLTMJUif1tmg" sourceX="-380" targetX="-1228" targetY="699"/>
+    <bendpoints xmi:id="_a6DqAb-uEeSLTMJUif1tmg" sourceX="-380" sourceY="-855" targetX="-1228" targetY="-156"/>
+    <bendpoints xmi:id="_a6DqAr-uEeSLTMJUif1tmg" sourceX="2386" sourceY="-855" targetX="1538" targetY="-156"/>
+    <bendpoints xmi:id="_a6DqA7-uEeSLTMJUif1tmg" sourceX="2386" sourceY="-672" targetX="1538" targetY="27"/>
+    <bendpoints xmi:id="_a6DqBL-uEeSLTMJUif1tmg" sourceX="848" sourceY="-672" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMbmIL-uEeSLTMJUif1tmg" sourceAnchor="92.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YHifEL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-74QL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a56gEL-uEeSLTMJUif1tmg" sourceY="-288" targetX="-99" targetY="27"/>
+    <bendpoints xmi:id="_a56gEb-uEeSLTMJUif1tmg" sourceX="99" sourceY="-288" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMbmIb-uEeSLTMJUif1tmg" sourceAnchor="419.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YJ0XAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W_Cl8L-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a5-Kcb-uEeSLTMJUif1tmg" sourceX="2491" targetX="2656" targetY="907"/>
+    <bendpoints xmi:id="_a5-Kcr-uEeSLTMJUif1tmg" sourceX="2491" sourceY="-880" targetX="2656" targetY="27"/>
+    <bendpoints xmi:id="_a5-Kc7-uEeSLTMJUif1tmg" sourceX="-165" sourceY="-880" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMbmIr-uEeSLTMJUif1tmg" sourceAnchor="210.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YGIJ0L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W_IskL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a521sr-uEeSLTMJUif1tmg" sourceY="-210" targetX="650" targetY="27"/>
+    <bendpoints xmi:id="_a521s7-uEeSLTMJUif1tmg" sourceX="-650" sourceY="-210" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YMbmI7-uEeSLTMJUif1tmg" sourceAnchor="350.0,0.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YLzUAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W_QoYL-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6EREL-uEeSLTMJUif1tmg" sourceY="-405" targetX="-400" targetY="456"/>
+    <bendpoints xmi:id="_a6EREb-uEeSLTMJUif1tmg" sourceX="194" sourceY="-405" targetX="-206" targetY="456"/>
+    <bendpoints xmi:id="_a6EREr-uEeSLTMJUif1tmg" sourceX="194" sourceY="-834" targetX="-206" targetY="27"/>
+    <bendpoints xmi:id="_a6FfML-uEeSLTMJUif1tmg" sourceX="400" sourceY="-834" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YNKl8L-uEeSLTMJUif1tmg" sourceAnchor="419.0,46.0" targetAnchor="234.0,111.0" superClass="_YMkJAL-uEeSLTMJUif1tmg" subClass="_YNO3YL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_W-nvML-uEeSLTMJUif1tmg"/>
+    <bendpoints xmi:id="_a6HUYL-uEeSLTMJUif1tmg" sourceX="2100" targetX="2776" targetY="1193"/>
+    <bendpoints xmi:id="_a6HUYb-uEeSLTMJUif1tmg" sourceX="2100" sourceY="-1166" targetX="2776" targetY="27"/>
+    <bendpoints xmi:id="_a6HUYr-uEeSLTMJUif1tmg" sourceX="-676" sourceY="-1166" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YAOWIL-uEeSLTMJUif1tmg" name="JsonTextEveningOnly" generalizations="_YMZJ4L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WHD1EL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YAOWIb-uEeSLTMJUif1tmg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YAO9ML-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YAO9Mb-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WICFcL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YAO9Mr-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WIDTkb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YAO9M7-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WID6oL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YAO9NL-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WIGW4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YAO9Nb-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YAO9Nr-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WICsgL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YAO9N7-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YAO9OL-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WICFcb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YAO9Ob-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YAO9Or-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9xaoL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YAO9O7-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9yowL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YAO9PL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W9zP0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YAO9Pb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W91FAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YAO9Pr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YAO9P7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDQ-oL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YAO9QL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YAO9Qb-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9xaob-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YAO9Qr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YAO9Q7-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDSMwL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YAO9RL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDSz0b-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YAO9Rb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDUpAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YAO9Rr-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YAO9R7-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDSMwb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YAO9SL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YAO9Sb-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDSz0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YAO9Sr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YFyyoL-uEeSLTMJUif1tmg" name="IOException">
+    <modelElement href="restaurant.uml#_W87tIb-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YFyyob-uEeSLTMJUif1tmg" position="199.0,170.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_YFyyor-uEeSLTMJUif1tmg" name="Reference">
+      <modelElement href="restaurant.uml#_W8-JYL-uEeSLTMJUif1tmg"/>
+    </stereotypes>
+    <visibility xmi:id="_YFyyo7-uEeSLTMJUif1tmg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YF3EEL-uEeSLTMJUif1tmg" name="FileNotFoundException">
+    <modelElement href="restaurant.uml#_W86fAL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YF3EEb-uEeSLTMJUif1tmg" position="153.0,284.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_YF3EEr-uEeSLTMJUif1tmg" name="Reference">
+      <modelElement href="restaurant.uml#_W87tIL-uEeSLTMJUif1tmg"/>
+    </stereotypes>
+    <visibility xmi:id="_YF3EE7-uEeSLTMJUif1tmg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YF78kL-uEeSLTMJUif1tmg" name="Diner" generalizations="_YIUiML-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WMyCkL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YF8joL-uEeSLTMJUif1tmg" position="19.0,399.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YF8job-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YF8jor-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory">
+      <modelElement href="restaurant.uml#_XA8DYL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YF8jo7-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_XA9RgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YF8jpL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XBF0YL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YF8jpb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XBHCgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YF8jpr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YF8jp7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEmbYL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YF8jqL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YF8jqb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XA8DYb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YF8jqr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YGIJ0L-uEeSLTMJUif1tmg" name="XmlXmlDiner" generalizations="_YMbmIr-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WK9doL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YGIJ0b-uEeSLTMJUif1tmg" position="-334.0,212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YGIJ0r-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YGIJ07-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WK_S0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YGIJ1L-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WK_54r-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGIJ1b-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WLBIAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGIJ1r-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WLBvEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YGIJ17-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YGIJ2L-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WK_54L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGIJ2b-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YGIJ2r-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WK_S0b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGIJ27-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGIJ3L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W_FpQL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YGIJ3b-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W_GQUL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGIJ3r-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W_G3YL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGIJ37-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W_IFgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YGIJ4L-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YGIJ4b-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEV8sL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGIJ4r-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YGIw4L-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W_FpQb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGIw4b-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGIw4r-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XEXK0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YGIw47-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XEYY8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGIw5L-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEa1ML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YGIw5b-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YGIw5r-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEXK0b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGIw57-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YGIw6L-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEXx4L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGIw6b-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YGqVUL-uEeSLTMJUif1tmg" name="XmlTextAllDay" generalizations="_YMa_EL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WKCQkL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YGqVUb-uEeSLTMJUif1tmg" position="-464.0,394.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YGqVUr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YGqVU7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WKHJEL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YGqVVL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WKNPsL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGqVVb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WKPE4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGqVVr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WKPr8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YGqVV7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YGqVWL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WKHwIL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGqVWb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YGqVWr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WKHJEb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGqVW7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGqVXL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-qLcL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YGqVXb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-sAoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGqVXr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-snsL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGqVX7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-t10L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YGqVYL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YGqVYb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XD87IL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGqVYr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YGq8YL-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-qLcb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGq8Yb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGq8Yr-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XD-wUL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YGq8Y7-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XD_XYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGq8ZL-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEBzoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YGq8Zb-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YGq8Zr-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XD-wUb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGq8Z7-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YGq8aL-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XD-wUr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YGq8ab-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YHA6oL-uEeSLTMJUif1tmg" name="TextWriter" generalizations="_YL5aoL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WNGLoL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YHA6ob-uEeSLTMJUif1tmg" position="-126.0,559.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YHA6or-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YHA6o7-uEeSLTMJUif1tmg" name="getTextForItems">
+      <modelElement href="restaurant.uml#_XBzmEL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YHA6pL-uEeSLTMJUif1tmg" label="-"/>
+      <outParameters xmi:id="_YHA6pb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XB0NIb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHA6pr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHA6p7-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XB0NIL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHA6qL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHA6qb-uEeSLTMJUif1tmg" name="createDocument">
+      <modelElement href="restaurant.uml#_XE0d0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHA6qr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XE2TAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHA6q7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XE4IML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHA6rL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YHA6rb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XE0d0b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHA6rr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YHA6r7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XE0d0r-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHA6sL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YHRZUL-uEeSLTMJUif1tmg" name="JsonTextDiner" generalizations="_YMYi0r-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WGzWYL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YHRZUb-uEeSLTMJUif1tmg" position="-828.0,108.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YHRZUr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YHRZU7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WG1LkL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHRZVL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WG3AwL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHRZVb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WG3n0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHRZVr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WG418L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHRZV7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHRZWL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WG2ZsL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHRZWb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHRZWr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WG1Lkb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHRZW7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHRZXL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9pe0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHRZXb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9rUAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHRZXr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W9r7EL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHRZX7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W9tJML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHRZYL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHRZYb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDK4AL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHRZYr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHRZY7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9pe0b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHRZZL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHRZZb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDMGIL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHRZZr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDNUQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHRZZ7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDOiYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHRZaL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YHRZab-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDMtML-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHRZar-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YHRZa7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDMtMb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHRZbL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YHZ8ML-uEeSLTMJUif1tmg" name="JsonXmlDiner" generalizations="_YMZw8L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WIcVIL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YHZ8Mb-uEeSLTMJUif1tmg" position="-633.0,576.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YHZ8Mr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YHZ8M7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WIeKUL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHZ8NL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WIf_gL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHZ8Nb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WIgmkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHZ8Nr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WIibwL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHZ8N7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHZ8OL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WIfYcL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHZ8Ob-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHZ8Or-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WIexYL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHZ8O7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHZ8PL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-AEIL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHZ8Pb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-CgYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHZ8Pr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-DHcL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHZ8P7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-EVkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHZ8QL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHZ8Qb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDdL4L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHZ8Qr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHZ8Q7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-AEIb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHZ8RL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHZ8Rb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDeaAL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHZ8Rr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDfBEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHZ8R7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDgPML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHZ8SL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YHZ8Sb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDeaAb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHZ8Sr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YHZ8S7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDeaAr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHZ8TL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YHifEL-uEeSLTMJUif1tmg" name="XmlTextEveningOnly" generalizations="_YMbmIL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WKgxsL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YHifEb-uEeSLTMJUif1tmg" position="-965.0,290.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YHifEr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YHifE7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WKjN8L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHifFL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WKmRQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHifFb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WKoGcL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHifFr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WKpUkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHifF7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHifGL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WKlqML-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHifGb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHifGr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WKj1AL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHifG7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHifHL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-408L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHifHb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-5cAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHifHr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-6DEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHifH7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-6qIb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHifIL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHifIb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEJIYL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHifIr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHifI7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-408b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHifJL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHifJb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XEKWgL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHifJr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XEK9kL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHifJ7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEMywL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHifKL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YHifKb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEKWgb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHifKr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YHifK7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEKWgr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHifLL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YHrpAL-uEeSLTMJUif1tmg" name="JsonHtmlEveningOnly" generalizations="_YMYi0L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WF0e8L-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YHrpAb-uEeSLTMJUif1tmg" position="-532.0,758.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YHrpAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YHrpA7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WF27ML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHrpBL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WF5-gL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHrpBb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WF7MoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHrpBr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WF9B0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHrpB7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHrpCL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WF4JUL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHrpCb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHrpCr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WF3iQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHrpC7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHrpDL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9ZnML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHrpDb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9a1UL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHrpDr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W9bcYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHrpD7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W9dRkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHrpEL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YHrpEb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XC_R0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHrpEr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YHrpE7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9ZnMb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHrpFL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YHrpFb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDAf8L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YHrpFr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDBuEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YHrpF7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDC8ML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YHrpGL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YHrpGb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDAf8b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHrpGr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YHrpG7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDBHAL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YHrpHL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YIFRoL-uEeSLTMJUif1tmg" name="XmlHtmlDiner" generalizations="_YMaYAr-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WJFOUL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YIFRob-uEeSLTMJUif1tmg" position="-1130.0,472.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YIFRor-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YIFRo7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WJGccL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YIFRpL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WJHqkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YIFRpb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WJHqkb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YIFRpr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WJI4sL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YIFRp7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YIFRqL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WJHDgL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIFRqb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YIFRqr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WJGccb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIFRq7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YIFRrL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-aT0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YIFRrb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-cJAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YIFRrr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-cwEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YIFRr7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-elQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YIFRsL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YIFRsb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDtqkL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIFRsr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YIFRs7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-aT0b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIFRtL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YIFRtb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDx8AL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YIFRtr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDyjEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YIF4sL-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XD0YQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YIF4sb-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YIF4sr-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDx8Ab-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIF4s7-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YIF4tL-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDx8Ar-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIF4tb-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YIceAL-uEeSLTMJUif1tmg" name="IRestaurantType" abstractClass="true" subclassedBy="_YIUiML-uEeSLTMJUif1tmg _YJYSIL-uEeSLTMJUif1tmg _YKbbAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WM3iIL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YIceAb-uEeSLTMJUif1tmg" position="1078.0,271.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YIceAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YIceA7-uEeSLTMJUif1tmg" abstractOperation="true" name="getRelevantFoodItemsByCategory">
+      <modelElement href="restaurant.uml#_XBNwML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YIceBL-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_XBO-UL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YIceBb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XBPlYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YIceBr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YIceB7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEoQkL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIceCL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YIceCb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XBOXQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIceCr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YIceC7-uEeSLTMJUif1tmg" name="filterByCategory">
+      <modelElement href="restaurant.uml#_XBRakL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YIceDL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_XBSBor-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YIceDb-uEeSLTMJUif1tmg" label="#"/>
+      <outParameters xmi:id="_YIceDr-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XBSBoL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIceD7-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YIceEL-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XBRakb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIceEb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YIceEr-uEeSLTMJUif1tmg" name="type">
+        <modelElement href="restaurant.uml#_XBRakr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YIceE7-uEeSLTMJUif1tmg" name="FoodItemCategory">
+          <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJTZoL-uEeSLTMJUif1tmg" name="HTMLWriter" generalizations="_YL4zkL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WM7zkL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YJTZob-uEeSLTMJUif1tmg" position="353.0,151.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJTZor-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YJTZo7-uEeSLTMJUif1tmg" name="getHtmlForItems">
+      <modelElement href="restaurant.uml#_XBrDML-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YJTZpL-uEeSLTMJUif1tmg" label="-"/>
+      <outParameters xmi:id="_YJTZpb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEuXML-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJTZpr-uEeSLTMJUif1tmg" name="Ul">
+          <modelElement href="restaurant.uml#_XBp1EL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJTZp7-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XBrqQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJTZqL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJTZqb-uEeSLTMJUif1tmg" name="createDocument">
+      <modelElement href="restaurant.uml#_XEpesL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJTZqr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XEqs0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJTZq7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEtJEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJTZrL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YJTZrb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEqFwL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJTZrr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJTZr7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEqFwb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJTZsL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJauYL-uEeSLTMJUif1tmg" name="EveningOnly" generalizations="_YJYSIL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WM1F4L-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YJauYb-uEeSLTMJUif1tmg" position="295.0,537.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJauYr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YJauY7-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory">
+      <modelElement href="restaurant.uml#_XBI3sL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJauZL-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_XBKs4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJauZb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XBLT8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJauZr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XBMiEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJauZ7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJauaL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEnpgL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJbVcL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJbVcb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XBI3sb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJbVcr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJiDIL-uEeSLTMJUif1tmg" name="XMLWriter" generalizations="_YL5aob-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WNKdEL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YJiDIb-uEeSLTMJUif1tmg" position="498.0,289.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJiDIr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YJiDI7-uEeSLTMJUif1tmg" name="createDocument">
+      <modelElement href="restaurant.uml#_XE59YL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJiDJL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XE6kcL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJiDJb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XE7ykL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJiDJr-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YJiDJ7-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XE59Yb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJiDKL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJiDKb-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XE59Yr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJiDKr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJiDK7-uEeSLTMJUif1tmg" name="appendXmlForItems">
+      <modelElement href="restaurant.uml#_XE9AsL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YJiDLL-uEeSLTMJUif1tmg" label="-"/>
+      <parameters xmi:id="_YJiDLb-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_XE9nwL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJiDLr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJiDL7-uEeSLTMJUif1tmg" name="categoryNode">
+        <modelElement href="restaurant.uml#_XE9nwb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJiDML-uEeSLTMJUif1tmg" name="Element">
+          <modelElement href="restaurant.uml#_W_kxcb-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJiDMb-uEeSLTMJUif1tmg" name="doc">
+        <modelElement href="restaurant.uml#_XE9nwr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJiDMr-uEeSLTMJUif1tmg" name="Document">
+          <modelElement href="restaurant.uml#_W_f48b-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJqmAL-uEeSLTMJUif1tmg" name="JsonXmlAllDay" generalizations="_YMZJ4b-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WIL2cL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YJqmAb-uEeSLTMJUif1tmg" position="-1127.0,654.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJqmAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YJqmA7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WINEkL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJrNEL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WIUZUL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJrNEb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WIVAYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJrNEr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WIWOgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJrNE7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJrNFL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WIR9EL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJrNFb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJrNFr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WINroL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJrNF7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJrNGL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W94vYL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJrNGb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W959gL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJrNGr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W97LoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJrNG7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W98ZwL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJrNHL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJrNHb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDXFQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJrNHr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJrNH7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W94vYb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJrNIL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJrNIb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDYTYL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJrNIr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDY6cb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJrNI7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDavoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJrNJL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YJrNJb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDYTYb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJrNJr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJrNJ7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDY6cL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJrNKL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJ0XAL-uEeSLTMJUif1tmg" name="XmlXmlAllDay" generalizations="_YMbmIb-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WKwpUL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YJ0XAb-uEeSLTMJUif1tmg" position="-1028.0,836.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJ0XAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YJ0XA7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WKyegL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJ0XBL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WKzsoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ0XBb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WK06wL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ0XBr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WK2I4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJ0XB7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJ0XCL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WKzFkL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ0XCb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJ0XCr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WKyegb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ0XC7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ0XDL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W--7kL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJ0XDb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-_ioL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ0XDr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W_AwwL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ0XD7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W_B-4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJ0XEL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJ0XEb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEP2EL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ0XEr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJ0XE7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W--7kb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ0XFL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ0XFb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XEQdIL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJ0XFr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XERrQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ0XF7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEUHgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJ0XGL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YJ0XGb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEREML-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ0XGr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ0XG7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEREMb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ0XHL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJ-IAL-uEeSLTMJUif1tmg" name="JsonXmlEveningOnly" generalizations="_YMaYAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WIoiYL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YJ-IAb-uEeSLTMJUif1tmg" position="-1455.0,134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJ-IAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YJ-IA7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WIqXkL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJ-IBL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WIrlsL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ-IBb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WIsMwL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ-vEL-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WIupAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJ-vEb-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJ-vEr-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WIq-oL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ-vE7-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJ-vFL-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WIqXkb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ-vFb-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ-vFr-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-J1IL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJ-vF7-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-LDQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ-vGL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-LqUL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ-vGb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-OGkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJ-vGr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YJ-vG7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDiEYL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ-vHL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJ-vHb-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-KcML-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ-vHr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJ-vH7-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDj5kL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YJ-vIL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDlHsL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YJ-vIb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDmV0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YJ-vIr-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YJ-vI7-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDkgoL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ-vJL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJ-vJb-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDkgob-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YJ-vJr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YKGq4L-uEeSLTMJUif1tmg" name="XMLReader" generalizations="_YKLjYL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WLykEL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YKGq4b-uEeSLTMJUif1tmg" position="-2276.0,902.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKGq4r-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YKGq47-uEeSLTMJUif1tmg" name="processDocument">
+      <modelElement href="restaurant.uml#_WL0ZQL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKGq5L-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WL21gL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKGq5b-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WL6f4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKGq5r-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WL7G8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKGq57-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKGq6L-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WL2OcL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKGq6b-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKGq6r-uEeSLTMJUif1tmg" name="path">
+        <modelElement href="restaurant.uml#_WL1AUL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKGq67-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YKN_oL-uEeSLTMJUif1tmg" name="IReader" abstractClass="true" subclassedBy="_YKLjYL-uEeSLTMJUif1tmg _YLfyAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WLfpIL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YKN_ob-uEeSLTMJUif1tmg" position="-1894.0,793.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKN_or-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YKN_o7-uEeSLTMJUif1tmg" abstractOperation="true" name="processDocument">
+      <modelElement href="restaurant.uml#_WLg3QL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKN_pL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WLjTgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKN_pb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WLkhoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKN_pr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKN_p7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WLiFYL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKN_qL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKN_qb-uEeSLTMJUif1tmg" name="path">
+        <modelElement href="restaurant.uml#_WLg3Qb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKN_qr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YKUtUL-uEeSLTMJUif1tmg" name="JsonHtmlAllDay" generalizations="_YMX7wL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WDinAL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YKUtUb-uEeSLTMJUif1tmg" position="-535.0,940.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKUtUr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YKUtU7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WDkcML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKUtVL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WDlqUb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKUtVb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WDmRYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKUtVr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WDnfgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKUtV7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKUtWL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WDlDQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKUtWb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKUtWr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WDkcMb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKUtW7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKUtXL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9IhcL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKUtXb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9K9sL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKUtXr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W9K9sb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKUtX7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W9My4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKUtYL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKUtYb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XC05wL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKUtYr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKUtY7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9Ihcb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKUtZL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKUtZb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XC2H4L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKUtZr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XC2u8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKUtZ7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XC4kIL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKUtaL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YKUtab-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XC2H4b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKUtar-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YKUta7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XC2H4r-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKVUYL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YKd3QL-uEeSLTMJUif1tmg" name="AllDay" generalizations="_YKbbAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WMvmUL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YKd3Qb-uEeSLTMJUif1tmg" position="295.0,675.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKd3Qr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YKd3Q7-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory">
+      <modelElement href="restaurant.uml#_XA2j0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKd3RL-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_XA5AEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKd3Rb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XA5AEb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKd3Rr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XA6OML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKd3R7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKd3SL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEkmML-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKd3Sb-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKd3Sr-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XA3K4L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKd3S7-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_YKxZQL-uEeSLTMJUif1tmg" name="FoodItemCategory" associationsOut="_YKnBML-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YKxZQb-uEeSLTMJUif1tmg" position="809.0,454.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKxZQr-uEeSLTMJUif1tmg" label="+"/>
+    <attributes xmi:id="_YKxZQ7-uEeSLTMJUif1tmg" name="displayName">
+      <modelElement href="restaurant.uml#_XFRw0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YKxZRL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XFS-8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YKxZRb-uEeSLTMJUif1tmg" label="-"/>
+      <cardinality xmi:id="_YKxZRr-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YKxZR7-uEeSLTMJUif1tmg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YKxZSL-uEeSLTMJUif1tmg" name="FoodItemCategory">
+      <modelElement href="restaurant.uml#_WMcEUL-uEeSLTMJUif1tmg"/>
+      <keywords xmi:id="_YKxZSb-uEeSLTMJUif1tmg" keyword="create"/>
+      <visibility xmi:id="_YKxZSr-uEeSLTMJUif1tmg" label="~"/>
+      <outParameters xmi:id="_YKxZS7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMcrYr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKxZTL-uEeSLTMJUif1tmg" name="FoodItemCategory">
+          <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKxZTb-uEeSLTMJUif1tmg" name="displayName">
+        <modelElement href="restaurant.uml#_WMcEUb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKxZTr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKxZT7-uEeSLTMJUif1tmg" name="getCategory" staticOperation="true">
+      <modelElement href="restaurant.uml#_WMd5gL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YKxZUL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKxZUb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_W_t7YL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKxZUr-uEeSLTMJUif1tmg" name="FoodItemCategory">
+          <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YKxZU7-uEeSLTMJUif1tmg" name="category">
+        <modelElement href="restaurant.uml#_WMd5gb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKxZVL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YKxZVb-uEeSLTMJUif1tmg" name="toString">
+      <modelElement href="restaurant.uml#_WMfHoL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YKxZVr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YKxZV7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMfHob-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YKxZWL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_YKxZWb-uEeSLTMJUif1tmg" name="BREAKFAST">
+      <modelElement href="restaurant.uml#_WMUIgL-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZWr-uEeSLTMJUif1tmg" name="LUNCH">
+      <modelElement href="restaurant.uml#_WMUvkL-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZW7-uEeSLTMJUif1tmg" name="SNACK">
+      <modelElement href="restaurant.uml#_WMUvkr-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZXL-uEeSLTMJUif1tmg" name="SIDE_DISH">
+      <modelElement href="restaurant.uml#_WMVWob-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZXb-uEeSLTMJUif1tmg" name="APPETIZER">
+      <modelElement href="restaurant.uml#_WMV9sb-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZXr-uEeSLTMJUif1tmg" name="DINNER">
+      <modelElement href="restaurant.uml#_WMV9s7-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZX7-uEeSLTMJUif1tmg" name="DESSERT">
+      <modelElement href="restaurant.uml#_WMWkwb-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YKxZYL-uEeSLTMJUif1tmg" name="UNKNOWN">
+      <modelElement href="restaurant.uml#_WMXy4L-uEeSLTMJUif1tmg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YLNeIL-uEeSLTMJUif1tmg" name="JsonHtmlDiner" generalizations="_YMX7wb-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WFH7YL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YLNeIb-uEeSLTMJUif1tmg" position="-1608.0,446.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YLNeIr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YLNeI7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WFLlwL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLNeJL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WFOpEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLNeJb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WFP3ML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLNeJr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WFRsYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLNeJ7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLOFML-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WFNa8L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLOFMb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLOFMr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WFLlwb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLOFM7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLOFNL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9RrYL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLOFNb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9S5gL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLOFNr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W9TgkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLOFN7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W9UusL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLOFOL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLOFOb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XC6ZUL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLOFOr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLOFO7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9RrYb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLOFPL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLOFPb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XC7AYL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLOFPr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XC8OgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLOFP7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XC9coL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLOFQL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YLOFQb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XC7ncL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLOFQr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YLOFQ7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XC7ncb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLOFRL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_YLX2ML-uEeSLTMJUif1tmg" name="RestaurantCategory">
+    <modelElement href="restaurant.uml#_WMiyAL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YLX2Mb-uEeSLTMJUif1tmg" position="-1003.0,1009.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YLX2Mr-uEeSLTMJUif1tmg" label="+"/>
+    <attributes xmi:id="_YLX2M7-uEeSLTMJUif1tmg" name="displayName">
+      <modelElement href="restaurant.uml#_XFUNEL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLX2NL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XFU0IL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLX2Nb-uEeSLTMJUif1tmg" label="-"/>
+      <cardinality xmi:id="_YLX2Nr-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YLX2N7-uEeSLTMJUif1tmg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YLX2OL-uEeSLTMJUif1tmg" name="RestaurantCategory">
+      <modelElement href="restaurant.uml#_WMo4oL-uEeSLTMJUif1tmg"/>
+      <keywords xmi:id="_YLX2Ob-uEeSLTMJUif1tmg" keyword="create"/>
+      <visibility xmi:id="_YLX2Or-uEeSLTMJUif1tmg" label="~"/>
+      <outParameters xmi:id="_YLX2O7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMpfs7-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLX2PL-uEeSLTMJUif1tmg" name="RestaurantCategory">
+          <modelElement href="restaurant.uml#_WMiyAL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLX2Pb-uEeSLTMJUif1tmg" name="displayName">
+        <modelElement href="restaurant.uml#_WMpfsL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLX2Pr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLX2P7-uEeSLTMJUif1tmg" name="getCategory" staticOperation="true">
+      <modelElement href="restaurant.uml#_WMqGwL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YLX2QL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLX2Qb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_W_wXoL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLX2Qr-uEeSLTMJUif1tmg" name="FoodItemCategory">
+          <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLX2Q7-uEeSLTMJUif1tmg" name="category">
+        <modelElement href="restaurant.uml#_WMqt0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLX2RL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLX2Rb-uEeSLTMJUif1tmg" name="toString">
+      <modelElement href="restaurant.uml#_WMrU4L-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YLX2Rr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLX2R7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMr78L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLX2SL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_YLX2Sb-uEeSLTMJUif1tmg" name="DINER">
+      <modelElement href="restaurant.uml#_WMknML-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YLX2Sr-uEeSLTMJUif1tmg" name="ALL_DAY">
+      <modelElement href="restaurant.uml#_WMknMr-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YLX2S7-uEeSLTMJUif1tmg" name="EVENING_ONLY">
+      <modelElement href="restaurant.uml#_WMmcYL-uEeSLTMJUif1tmg"/>
+    </literals>
+    <literals xmi:id="_YLX2TL-uEeSLTMJUif1tmg" name="UNKNOWN">
+      <modelElement href="restaurant.uml#_WMnDcL-uEeSLTMJUif1tmg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YLhnML-uEeSLTMJUif1tmg" name="JSONReader" generalizations="_YLfyAL-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WLmW0L-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YLhnMb-uEeSLTMJUif1tmg" position="-2654.0,902.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YLhnMr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YLhnM7-uEeSLTMJUif1tmg" name="processDocument">
+      <modelElement href="restaurant.uml#_WLqBML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLhnNL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WLtrkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLhnNb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WLuSoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLhnNr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WLwH0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLhnN7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLhnOL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WLr2YL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLhnOb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLhnOr-uEeSLTMJUif1tmg" name="path">
+        <modelElement href="restaurant.uml#_WLqoQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLhnO7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YLqxIL-uEeSLTMJUif1tmg" name="XmlTextDiner" generalizations="_YMa_Eb-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WKVLgL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YLqxIb-uEeSLTMJUif1tmg" position="-1622.0,628.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YLqxIr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YLqxI7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WKXnwL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLqxJL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WKY14r-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLqxJb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WKZc8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLqxJr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WKarEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLqxJ7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLqxKL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WKY14L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLqxKb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLqxKr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WKYO0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLqxK7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLqxLL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-xgML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLqxLb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-yuUL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLqxLr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-zVYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLqxL7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-0jgL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLqxML-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLqxMb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEDo0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLqxMr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLqxM7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-yHQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLqxNL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLqxNb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XEE28L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLqxNr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XEFeAb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLqxN7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEH6QL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLqxOL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YLqxOb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEE28b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLqxOr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YLqxO7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEFeAL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLqxPL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YLzUAL-uEeSLTMJUif1tmg" name="XmlXmlEveningOnly" generalizations="_YMbmI7-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WLMuML-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YLzUAb-uEeSLTMJUif1tmg" position="-1524.0,836.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YLzUAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YLzUA7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WLPxgL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLzUBL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WLTb4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLzUBb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WLUC8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLzUBr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WLV4IL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLzUB7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLzUCL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WLSNwL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLzUCb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLzUCr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WLQYkL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLzUC7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLzUDL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W_MW8L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLzUDb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W_NlEL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLzUDr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W_OMIL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLzUD7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W_PaQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLzUEL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YLzUEb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XEcDUL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLzUEr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLzUE7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W_MW8b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLzUFL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLzUFb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XEdRcL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YLzUFr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XEd4gL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YLzUF7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XEgUwL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YLzUGL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YLzUGb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEdRcb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLzUGr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YLzUG7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEdRcr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YLzUHL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YL_hQL-uEeSLTMJUif1tmg" name="IWriter" abstractClass="true" subclassedBy="_YL4zkL-uEeSLTMJUif1tmg _YL5aoL-uEeSLTMJUif1tmg _YL5aob-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WNAFAL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YL_hQb-uEeSLTMJUif1tmg" position="808.0,84.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YL_hQr-uEeSLTMJUif1tmg" label="+"/>
+    <attributes xmi:id="_YL_hQ7-uEeSLTMJUif1tmg" defaultValue="{&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.BREAKFAST, FoodItemCategory.SNACK,&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.APPETIZER, FoodItemCategory.LUNCH,&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.DINNER, FoodItemCategory.DESSERT,&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.SIDE_DISH }" name="foodCategoriesPrintOrder">
+      <modelElement href="restaurant.uml#_XFWCQL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YL_hRL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_XFXQYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YL_hRb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XFX3cL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YL_hRr-uEeSLTMJUif1tmg" label="#"/>
+      <cardinality xmi:id="_YL_hR7-uEeSLTMJUif1tmg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_YL_hSL-uEeSLTMJUif1tmg" name="FoodItemCategory">
+        <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YL_hSb-uEeSLTMJUif1tmg" name="saveAsFile">
+      <modelElement href="restaurant.uml#_WNChQL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YL_hSr-uEeSLTMJUif1tmg" label="#"/>
+      <parameters xmi:id="_YL_hS7-uEeSLTMJUif1tmg" name="content">
+        <modelElement href="restaurant.uml#_WNChQb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YL_hTL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YL_hTb-uEeSLTMJUif1tmg" name="filename">
+        <modelElement href="restaurant.uml#_WNDIUL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YL_hTr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YL_hT7-uEeSLTMJUif1tmg" abstractOperation="true" name="createDocument">
+      <modelElement href="restaurant.uml#_XEwMYL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YL_hUL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XEwzcL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YL_hUb-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YL_hUr-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XEwMYb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YL_hU7-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YL_hVL-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XEwMYr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YL_hVb-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YMJ5UL-uEeSLTMJUif1tmg" name="JsonTextAllDay" generalizations="_YMYi0b-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WGfNUL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YMJ5Ub-uEeSLTMJUif1tmg" position="-1957.0,134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YMJ5Ur-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YMJ5U7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WGjewL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMJ5VL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WGks4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMJ5Vb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WGlT8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMJ5Vr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WGoXQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMJ5V7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMJ5WL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WGkF0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMJ5Wb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMJ5Wr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WGjewb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMJ5W7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMJ5XL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9gU4L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMJ5Xb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9ixIL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMKgYL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W9jYML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMKgYb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W9lNYL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMKgYr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMKgY7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDFYcL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMKgZL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMKgZb-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9g78L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMKgZr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMKgZ7-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDGmkL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMKgaL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDHNoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMKgab-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDJC0L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMKgar-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YMKga7-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDGmkb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMKgbL-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YMKgbb-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDGmkr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMKgbr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YMR1IL-uEeSLTMJUif1tmg" name="XmlHtmlAllDay" generalizations="_YMaYAb-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WI19wL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YMR1Ib-uEeSLTMJUif1tmg" position="-1476.0,1018.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YMR1Ir-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YMR1I7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WI5BEL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMR1JL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WI6PML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMR1Jb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WI7dUL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMR1Jr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WI8rcL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMR1J7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMR1KL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WI5oIb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMR1Kb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMR1Kr-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WI5oIL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMR1K7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMR1LL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-Rw8L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMR1Lb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-TmIL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMR1Lr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-UNML-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMR1L7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-VbUL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMR1ML-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMR1Mb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XDoLAL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMR1Mr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMR1M7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-Rw8b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMR1NL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMR1Nb-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XDqAML-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMR1Nr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XDqnQL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YMR1N7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XDr1YL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMR1OL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YMR1Ob-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XDqAMb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMR1Or-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YMR1O7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XDqAMr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMR1PL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YMkJAL-uEeSLTMJUif1tmg" name="IGenerateMenu" abstractClass="true" subclassedBy="_YMX7wL-uEeSLTMJUif1tmg _YMX7wb-uEeSLTMJUif1tmg _YMYi0L-uEeSLTMJUif1tmg _YMYi0b-uEeSLTMJUif1tmg _YMYi0r-uEeSLTMJUif1tmg _YMZJ4L-uEeSLTMJUif1tmg _YMZJ4b-uEeSLTMJUif1tmg _YMZw8L-uEeSLTMJUif1tmg _YMaYAL-uEeSLTMJUif1tmg _YMaYAb-uEeSLTMJUif1tmg _YMaYAr-uEeSLTMJUif1tmg _YMa_EL-uEeSLTMJUif1tmg _YMa_Eb-uEeSLTMJUif1tmg _YMbmIL-uEeSLTMJUif1tmg _YMbmIb-uEeSLTMJUif1tmg _YMbmIr-uEeSLTMJUif1tmg _YMbmI7-uEeSLTMJUif1tmg _YNKl8L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WDXA0L-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YMkJAb-uEeSLTMJUif1tmg" position="-1008.0,-136.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YMkJAr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YMkJA7-uEeSLTMJUif1tmg" abstractOperation="true" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WDY2AL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMkJBL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WDaEIb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMkJBb-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMkJBr-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WDZdEL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJB7-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMkJCL-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WDY2Ab-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJCb-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMkJCr-uEeSLTMJUif1tmg" name="filterItemsForCountry">
+      <modelElement href="restaurant.uml#_W9AloL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMkJC7-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_W9BMsr-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMkJDL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMkJDb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_W9BMsL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJDr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMkJD7-uEeSLTMJUif1tmg" name="country">
+        <modelElement href="restaurant.uml#_W9Alob-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJEL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YMkJEb-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9Alor-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJEr-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMkJE7-uEeSLTMJUif1tmg" abstractOperation="true" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W9Ca0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YMkJFL-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W9E3EL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YMkJFb-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YMkJFr-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XCwBQL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJF7-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YMkJGL-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W9Ca0b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJGb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YMkJGr-uEeSLTMJUif1tmg" abstractOperation="true" name="printMenu">
+      <modelElement href="restaurant.uml#_XCx2cL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YMkJG7-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YMkJHL-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XCydgL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJHb-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YMkJHr-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XCydgb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YMkJH7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YNO3YL-uEeSLTMJUif1tmg" name="XmlHtmlEveningOnly" generalizations="_YNKl8L-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WJNxML-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YNO3Yb-uEeSLTMJUif1tmg" position="-517.0,1122.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YNO3Yr-uEeSLTMJUif1tmg" label="+"/>
+    <operations xmi:id="_YNO3Y7-uEeSLTMJUif1tmg" name="fetchFoodItems">
+      <modelElement href="restaurant.uml#_WJ34gL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNO3ZL-uEeSLTMJUif1tmg" name="Array">
+        <modelElement href="restaurant.uml#_WJ670L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNO3Zb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WJ8J8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNO3Zr-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WJ8xAL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNO3Z7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNO3aL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WJ5tsL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNO3ab-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YNO3ar-uEeSLTMJUif1tmg" name="inputFilePath">
+        <modelElement href="restaurant.uml#_WJ4fkL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNO3a7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YNO3bL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory">
+      <modelElement href="restaurant.uml#_W-i2sL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNO3bb-uEeSLTMJUif1tmg" name="Generics">
+        <modelElement href="restaurant.uml#_W-kr4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNO3br-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_W-l6AL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNO3b7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_W-nIIL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNO3cL-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNO3cb-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_XD2NcL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNO3cr-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YNO3c7-uEeSLTMJUif1tmg" name="foodItems">
+        <modelElement href="restaurant.uml#_W-i2sb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNO3dL-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YNO3db-uEeSLTMJUif1tmg" name="printMenu">
+      <modelElement href="restaurant.uml#_XD3bkL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNO3dr-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XD4psL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNO3d7-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_XD6e4L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNO3eL-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YNO3eb-uEeSLTMJUif1tmg" name="items">
+        <modelElement href="restaurant.uml#_XD3bkb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNO3er-uEeSLTMJUif1tmg" name="Map">
+          <modelElement href="restaurant.uml#_W80YYL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YNO3e7-uEeSLTMJUif1tmg" name="outputFilePath">
+        <modelElement href="restaurant.uml#_XD4CoL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNO3fL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YNevAL-uEeSLTMJUif1tmg" name="FoodItem" associationsIn="_YKnBML-uEeSLTMJUif1tmg">
+    <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+    <visualProperties xmi:id="_YNevAb-uEeSLTMJUif1tmg" position="873.0,-366.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YNevAr-uEeSLTMJUif1tmg" label="+"/>
+    <attributes xmi:id="_YNevA7-uEeSLTMJUif1tmg" name="id">
+      <modelElement href="restaurant.uml#_XFGxsL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevBL-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YNevBb-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YNevBr-uEeSLTMJUif1tmg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YNevB7-uEeSLTMJUif1tmg" name="name">
+      <modelElement href="restaurant.uml#_XFH_0L-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNevCL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XFJN8L-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNevCb-uEeSLTMJUif1tmg" name="MultiDeclaration">
+        <modelElement href="restaurant.uml#_XFJ1AL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNevCr-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YNevC7-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YNevDL-uEeSLTMJUif1tmg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YNevDb-uEeSLTMJUif1tmg" name="price">
+      <modelElement href="restaurant.uml#_XFNfYL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevDr-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YNevD7-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YNevEL-uEeSLTMJUif1tmg" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YNevEb-uEeSLTMJUif1tmg" name="category">
+      <modelElement href="restaurant.uml#_XFOGcL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevEr-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YNevE7-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YNevFL-uEeSLTMJUif1tmg" name="FoodItemCategory">
+        <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YNevFb-uEeSLTMJUif1tmg" name="description">
+      <modelElement href="restaurant.uml#_XHXbgL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNevFr-uEeSLTMJUif1tmg" name="MultiDeclaration">
+        <modelElement href="restaurant.uml#_XHYCkL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNevF7-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XHYpoL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNevGL-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YNevGb-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YNevGr-uEeSLTMJUif1tmg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YNevG7-uEeSLTMJUif1tmg" name="country">
+      <modelElement href="restaurant.uml#_XHYpob-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNevHL-uEeSLTMJUif1tmg" name="MultiDeclaration">
+        <modelElement href="restaurant.uml#_XHZQsL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNevHb-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_XHZQsb-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNevHr-uEeSLTMJUif1tmg" label="+"/>
+      <cardinality xmi:id="_YNevH7-uEeSLTMJUif1tmg" label="1" max="1" min="1"/>
+      <type xmi:id="_YNevIL-uEeSLTMJUif1tmg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YNevIb-uEeSLTMJUif1tmg" name="getCountry">
+      <modelElement href="restaurant.uml#_WMBNkL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevIr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNevI7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMB0oL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevJL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YNevJb-uEeSLTMJUif1tmg" name="setCountry">
+      <modelElement href="restaurant.uml#_WMDCwL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevJr-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YNevJ7-uEeSLTMJUif1tmg" name="country">
+        <modelElement href="restaurant.uml#_WMDp0L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevKL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YNevKb-uEeSLTMJUif1tmg" name="getDescription">
+      <modelElement href="restaurant.uml#_WMEQ4L-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevKr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNevK7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WME38L-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevLL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YNevLb-uEeSLTMJUif1tmg" name="setDescription">
+      <modelElement href="restaurant.uml#_WMGGEL-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevLr-uEeSLTMJUif1tmg" label="+"/>
+      <parameters xmi:id="_YNevL7-uEeSLTMJUif1tmg" name="description">
+        <modelElement href="restaurant.uml#_WMGGEb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevML-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YNevMb-uEeSLTMJUif1tmg" name="getFormattedPrice">
+      <modelElement href="restaurant.uml#_WMHUML-uEeSLTMJUif1tmg"/>
+      <visibility xmi:id="_YNevMr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNevM7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMH7Qb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevNL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YNevNb-uEeSLTMJUif1tmg" name="currencyCode">
+        <modelElement href="restaurant.uml#_WMH7QL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevNr-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YNevN7-uEeSLTMJUif1tmg" name="toString">
+      <modelElement href="restaurant.uml#_WMIiUL-uEeSLTMJUif1tmg"/>
+      <stereotypes xmi:id="_YNevOL-uEeSLTMJUif1tmg" name="LegacyStyledElement">
+        <modelElement href="restaurant.uml#_WMJwcL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YNevOb-uEeSLTMJUif1tmg" name="Annotations">
+        <modelElement href="restaurant.uml#_WMK-kL-uEeSLTMJUif1tmg"/>
+      </stereotypes>
+      <visibility xmi:id="_YNevOr-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNevO7-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_WMJJYL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevPL-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YNevPb-uEeSLTMJUif1tmg" name="FoodItem">
+      <modelElement href="restaurant.uml#_W_pp8L-uEeSLTMJUif1tmg"/>
+      <keywords xmi:id="_YNevPr-uEeSLTMJUif1tmg" keyword="create"/>
+      <visibility xmi:id="_YNevP7-uEeSLTMJUif1tmg" label="+"/>
+      <outParameters xmi:id="_YNevQL-uEeSLTMJUif1tmg">
+        <modelElement href="restaurant.uml#_W_qRBb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevQb-uEeSLTMJUif1tmg" name="FoodItem">
+          <modelElement href="restaurant.uml#_WL88IL-uEeSLTMJUif1tmg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YNevQr-uEeSLTMJUif1tmg" name="id">
+        <modelElement href="restaurant.uml#_W_pp8b-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevQ7-uEeSLTMJUif1tmg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YNevRL-uEeSLTMJUif1tmg" name="name">
+        <modelElement href="restaurant.uml#_W_pp8r-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevRb-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YNevRr-uEeSLTMJUif1tmg" name="description">
+        <modelElement href="restaurant.uml#_W_pp87-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevR7-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YNevSL-uEeSLTMJUif1tmg" name="country">
+        <modelElement href="restaurant.uml#_W_qRAL-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevSb-uEeSLTMJUif1tmg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YNevSr-uEeSLTMJUif1tmg" name="price">
+        <modelElement href="restaurant.uml#_W_qRAb-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevS7-uEeSLTMJUif1tmg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YNevTL-uEeSLTMJUif1tmg" name="category">
+        <modelElement href="restaurant.uml#_W_qRAr-uEeSLTMJUif1tmg"/>
+        <type xmi:id="_YNevTb-uEeSLTMJUif1tmg" name="FoodItemCategory">
+          <modelElement href="restaurant.uml#_WMS6YL-uEeSLTMJUif1tmg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_SZCEIL-uEeSLTMJUif1tmg" name="restaurant">
+    <eAnnotations xmi:id="_TyWngL-uEeSLTMJUif1tmg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_TyWngb-uEeSLTMJUif1tmg" source="codegen">
+        <details xmi:id="_TzNjIL-uEeSLTMJUif1tmg" key="codegenDirectory" value="/restaurant/src/main/java"/>
+        <details xmi:id="_X99sUL-uEeSLTMJUif1tmg" key="AssociatedSourceCode" value="/restaurant/src/main/java/client/Client.java;3762797057/1;/restaurant/src/main/java/factory/IGenerateMenu.java;2404047285/1;/restaurant/src/main/java/factory/JsonHtmlAllDay.java;658299671/1;/restaurant/src/main/java/factory/JsonHtmlDiner.java;1099527160/1;/restaurant/src/main/java/factory/JsonHtmlEveningOnly.java;1123384047/1;/restaurant/src/main/java/factory/JsonTextAllDay.java;1451959110/1;/restaurant/src/main/java/factory/JsonTextDiner.java;2997801748/1;/restaurant/src/main/java/factory/JsonTextEveningOnly.java;1444885634/1;/restaurant/src/main/java/factory/JsonXmlAllDay.java;3463143851/1;/restaurant/src/main/java/factory/JsonXmlDiner.java;1437810706/1;/restaurant/src/main/java/factory/JsonXmlEveningOnly.java;3754561824/1;/restaurant/src/main/java/factory/XmlHtmlAllDay.java;4149801094/1;/restaurant/src/main/java/factory/XmlHtmlDiner.java;908963690/1;/restaurant/src/main/java/factory/XmlHtmlEveningOnly.java;1875969138/1;/restaurant/src/main/java/factory/XmlTextAllDay.java;2365714655/1;/restaurant/src/main/java/factory/XmlTextDiner.java;1255377616/1;/restaurant/src/main/java/factory/XmlTextEveningOnly.java;4211937281/1;/restaurant/src/main/java/factory/XmlXmlAllDay.java;885001764/1;/restaurant/src/main/java/factory/XmlXmlDiner.java;3602980246/1;/restaurant/src/main/java/factory/XmlXmlEveningOnly.java;595553916/1;/restaurant/src/main/java/readers/IReader.java;2936435295/1;/restaurant/src/main/java/readers/JSONReader.java;1342898998/1;/restaurant/src/main/java/readers/XMLReader.java;1152339857/1;/restaurant/src/main/java/restaurant/FoodItem.java;3360510359/1;/restaurant/src/main/java/restaurant/FoodItemCategory.java;3083071121/1;/restaurant/src/main/java/restaurant/RestaurantCategory.java;2446327941/1;/restaurant/src/main/java/restauranttypes/AllDay.java;1407394979/1;/restaurant/src/main/java/restauranttypes/Diner.java;2831944693/1;/restaurant/src/main/java/restauranttypes/EveningOnly.java;1175831553/1;/restaurant/src/main/java/restauranttypes/IRestaurantType.java;2992325117/1;/restaurant/src/main/java/writers/HTMLWriter.java;1986672813/1;/restaurant/src/main/java/writers/IWriter.java;595423590/1;/restaurant/src/main/java/writers/TextWriter.java;2921017101/1;/restaurant/src/main/java/writers/XMLWriter.java;3783067835/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_V3M0IL-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_V3RFkL-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_V3RsoL-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_V3Rsob-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_V3Rsor-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_V3STsL-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_V3STsb-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_V3STsr-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_V3Th0L-uEeSLTMJUif1tmg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V3dS0L-uEeSLTMJUif1tmg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_V3d54L-uEeSLTMJUif1tmg" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_W8uRwL-uEeSLTMJUif1tmg" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W8yjML-uEeSLTMJUif1tmg" name="InputStreamReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W86fAL-uEeSLTMJUif1tmg" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W87tIb-uEeSLTMJUif1tmg" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_SdkL-uEeSLTMJUif1tmg" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_Trsb-uEeSLTMJUif1tmg" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XBvUoL-uEeSLTMJUif1tmg" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XBwiwL-uEeSLTMJUif1tmg" name="PrintWriter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_V3fIAL-uEeSLTMJUif1tmg" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_W80YYL-uEeSLTMJUif1tmg" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W8-wcL-uEeSLTMJUif1tmg" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XAtZ4L-uEeSLTMJUif1tmg" name="HashMap"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_V-mcoL-uEeSLTMJUif1tmg" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_mmoL-uEeSLTMJUif1tmg" name="NumberFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_XCVKgL-uEeSLTMJUif1tmg" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XCVxkL-uEeSLTMJUif1tmg" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V3fvEL-uEeSLTMJUif1tmg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_V3l1sL-uEeSLTMJUif1tmg" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_V3oR8L-uEeSLTMJUif1tmg" name="commons">
+          <packagedElement xmi:type="uml:Package" xmi:id="_V3txgL-uEeSLTMJUif1tmg" name="io">
+            <packagedElement xmi:type="uml:Class" xmi:id="_W81mgb-uEeSLTMJUif1tmg" name="FilenameUtils"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_W_U50b-uEeSLTMJUif1tmg" name="IOUtils"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_V-aPYL-uEeSLTMJUif1tmg" name="json">
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_WvAL-uEeSLTMJUif1tmg" name="JSONArray"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_X9IL-uEeSLTMJUif1tmg" name="JSONException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W_YkMb-uEeSLTMJUif1tmg" name="JSONObject"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_V-g9EL-uEeSLTMJUif1tmg" name="w3c">
+        <packagedElement xmi:type="uml:Package" xmi:id="_V-iLML-uEeSLTMJUif1tmg" name="dom">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_W_f48b-uEeSLTMJUif1tmg" name="Document"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_W_hHEL-uEeSLTMJUif1tmg" name="NodeList"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_W_iVML-uEeSLTMJUif1tmg" name="Node"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_W_kxcb-uEeSLTMJUif1tmg" name="Element"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_XB_MQL-uEeSLTMJUif1tmg" name="Text"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V3xb4L-uEeSLTMJUif1tmg" name="restaurant">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WL88IL-uEeSLTMJUif1tmg" name="FoodItem">
+        <ownedAttribute xmi:id="_XFGxsL-uEeSLTMJUif1tmg" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XFH_0L-uEeSLTMJUif1tmg" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XFNfYL-uEeSLTMJUif1tmg" name="price">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XFOGcL-uEeSLTMJUif1tmg" name="category" type="_WMS6YL-uEeSLTMJUif1tmg" association="_XHcUAL-uEeSLTMJUif1tmg"/>
+        <ownedAttribute xmi:id="_XHXbgL-uEeSLTMJUif1tmg" name="description">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XHYpob-uEeSLTMJUif1tmg" name="country">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG8kwL-uEeSLTMJUif1tmg" name="FoodItem" specification="_W_pp8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG8kwb-uEeSLTMJUif1tmg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG8kwr-uEeSLTMJUif1tmg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG8kw7-uEeSLTMJUif1tmg" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG8kxL-uEeSLTMJUif1tmg" name="country">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG8kxb-uEeSLTMJUif1tmg" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG8kxr-uEeSLTMJUif1tmg" name="category" type="_WMS6YL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XG8kx7-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.id = id;&#xD;
+		this.name = name;&#xD;
+		this.description = description;&#xD;
+		this.country = country;&#xD;
+		this.price = price;&#xD;
+		this.category = category;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG9L0L-uEeSLTMJUif1tmg" name="getCountry" specification="_WMBNkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG9L0b-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return country;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG9y4L-uEeSLTMJUif1tmg" name="setCountry" specification="_WMDCwL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG9y4b-uEeSLTMJUif1tmg" name="country">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.country = country;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG-Z8L-uEeSLTMJUif1tmg" name="getDescription" specification="_WMEQ4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG-Z8b-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return description;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHAPIL-uEeSLTMJUif1tmg" name="setDescription" specification="_WMGGEL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHAPIb-uEeSLTMJUif1tmg" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.description = description;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHA2ML-uEeSLTMJUif1tmg" name="getFormattedPrice" specification="_WMHUML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHA2Mb-uEeSLTMJUif1tmg" name="currencyCode">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHA2Mr-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO: Use the currency code&#xD;
+		NumberFormat formatter = NumberFormat.getCurrencyInstance();&#xD;
+		formatter = NumberFormat.getNumberInstance();&#xD;
+		return formatter.format(this.getPrice());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHBdQL-uEeSLTMJUif1tmg" name="toString" specification="_WMIiUL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHBdQb-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return getName();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WMBNkL-uEeSLTMJUif1tmg" name="getCountry" method="_XG9L0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMB0oL-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMDCwL-uEeSLTMJUif1tmg" name="setCountry" method="_XG9y4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMDp0L-uEeSLTMJUif1tmg" name="country">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMEQ4L-uEeSLTMJUif1tmg" name="getDescription" method="_XG-Z8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WME38L-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMGGEL-uEeSLTMJUif1tmg" name="setDescription" method="_XHAPIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMGGEb-uEeSLTMJUif1tmg" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMHUML-uEeSLTMJUif1tmg" name="getFormattedPrice" method="_XHA2ML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMH7QL-uEeSLTMJUif1tmg" name="currencyCode">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WMH7Qb-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMIiUL-uEeSLTMJUif1tmg" name="toString" method="_XHBdQL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMJJYL-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W_pp8L-uEeSLTMJUif1tmg" name="FoodItem" method="_XG8kwL-uEeSLTMJUif1tmg">
+          <eAnnotations xmi:id="_W_qRA7-uEeSLTMJUif1tmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_W_qRBL-uEeSLTMJUif1tmg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_W_pp8b-uEeSLTMJUif1tmg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_pp8r-uEeSLTMJUif1tmg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_pp87-uEeSLTMJUif1tmg" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_qRAL-uEeSLTMJUif1tmg" name="country">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_qRAb-uEeSLTMJUif1tmg" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_qRAr-uEeSLTMJUif1tmg" name="category" type="_WMS6YL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_W_qRBb-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_WMS6YL-uEeSLTMJUif1tmg" name="FoodItemCategory">
+        <ownedAttribute xmi:id="_XFRw0L-uEeSLTMJUif1tmg" name="displayName" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_WMcEUL-uEeSLTMJUif1tmg" name="FoodItemCategory" visibility="package" method="_XHCrYL-uEeSLTMJUif1tmg">
+          <eAnnotations xmi:id="_WMcrYL-uEeSLTMJUif1tmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WMcrYb-uEeSLTMJUif1tmg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WMcEUb-uEeSLTMJUif1tmg" name="displayName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WMcrYr-uEeSLTMJUif1tmg" type="_WMS6YL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMd5gL-uEeSLTMJUif1tmg" name="getCategory" isStatic="true" method="_XHDScL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMd5gb-uEeSLTMJUif1tmg" name="category">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_t7YL-uEeSLTMJUif1tmg" type="_WMS6YL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMfHoL-uEeSLTMJUif1tmg" name="toString" method="_XHDSc7-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMfHob-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_WMUIgL-uEeSLTMJUif1tmg" name="BREAKFAST">
+          <specification xmi:type="uml:Expression" xmi:id="_WMUIgb-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHeJML-uEeSLTMJUif1tmg" value="&quot;Breakfast&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMUvkL-uEeSLTMJUif1tmg" name="LUNCH">
+          <specification xmi:type="uml:Expression" xmi:id="_WMUvkb-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHewQL-uEeSLTMJUif1tmg" value="&quot;Lunch&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMUvkr-uEeSLTMJUif1tmg" name="SNACK">
+          <specification xmi:type="uml:Expression" xmi:id="_WMVWoL-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHewQb-uEeSLTMJUif1tmg" value="&quot;Snack&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMVWob-uEeSLTMJUif1tmg" name="SIDE_DISH">
+          <specification xmi:type="uml:Expression" xmi:id="_WMV9sL-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHewQr-uEeSLTMJUif1tmg" value="&quot;Side_Dish&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMV9sb-uEeSLTMJUif1tmg" name="APPETIZER">
+          <specification xmi:type="uml:Expression" xmi:id="_WMV9sr-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHewQ7-uEeSLTMJUif1tmg" value="&quot;Appetizer&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMV9s7-uEeSLTMJUif1tmg" name="DINNER">
+          <specification xmi:type="uml:Expression" xmi:id="_WMWkwL-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHewRL-uEeSLTMJUif1tmg" value="&quot;Dinner&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMWkwb-uEeSLTMJUif1tmg" name="DESSERT">
+          <specification xmi:type="uml:Expression" xmi:id="_WMXL0L-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHfXUL-uEeSLTMJUif1tmg" value="&quot;Dessert&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMXy4L-uEeSLTMJUif1tmg" name="UNKNOWN">
+          <specification xmi:type="uml:Expression" xmi:id="_WMYZ8L-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHfXUb-uEeSLTMJUif1tmg" value="&quot;Unknown&quot;"/>
+          </specification>
+        </ownedLiteral>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_WMiyAL-uEeSLTMJUif1tmg" name="RestaurantCategory">
+        <ownedAttribute xmi:id="_XFUNEL-uEeSLTMJUif1tmg" name="displayName" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_WMo4oL-uEeSLTMJUif1tmg" name="RestaurantCategory" visibility="package" method="_XHD5gb-uEeSLTMJUif1tmg">
+          <eAnnotations xmi:id="_WMpfsb-uEeSLTMJUif1tmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WMpfsr-uEeSLTMJUif1tmg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WMpfsL-uEeSLTMJUif1tmg" name="displayName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WMpfs7-uEeSLTMJUif1tmg" type="_WMiyAL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMqGwL-uEeSLTMJUif1tmg" name="getCategory" isStatic="true" method="_XHEgkr-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMqt0L-uEeSLTMJUif1tmg" name="category">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W_wXoL-uEeSLTMJUif1tmg" type="_WMS6YL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WMrU4L-uEeSLTMJUif1tmg" name="toString" method="_XHEglb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WMr78L-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_WMknML-uEeSLTMJUif1tmg" name="DINER">
+          <specification xmi:type="uml:Expression" xmi:id="_WMknMb-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHfXUr-uEeSLTMJUif1tmg" value="&quot;Diner&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMknMr-uEeSLTMJUif1tmg" name="ALL_DAY">
+          <specification xmi:type="uml:Expression" xmi:id="_WMknM7-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHf-YL-uEeSLTMJUif1tmg" value="&quot;All Day&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMmcYL-uEeSLTMJUif1tmg" name="EVENING_ONLY">
+          <specification xmi:type="uml:Expression" xmi:id="_WMmcYb-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHf-Yb-uEeSLTMJUif1tmg" value="&quot;Evening Only&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WMnDcL-uEeSLTMJUif1tmg" name="UNKNOWN">
+          <specification xmi:type="uml:Expression" xmi:id="_WMnDcb-uEeSLTMJUif1tmg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_XHf-Yr-uEeSLTMJUif1tmg" value="&quot;Unknown&quot;"/>
+          </specification>
+        </ownedLiteral>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XHcUAL-uEeSLTMJUif1tmg" name="" memberEnd="_XFOGcL-uEeSLTMJUif1tmg _XHc7EL-uEeSLTMJUif1tmg">
+        <ownedEnd xmi:id="_XHc7EL-uEeSLTMJUif1tmg" name="" type="_WL88IL-uEeSLTMJUif1tmg" association="_XHcUAL-uEeSLTMJUif1tmg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V3yC8L-uEeSLTMJUif1tmg" name="factory">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WDXA0L-uEeSLTMJUif1tmg" name="IGenerateMenu" isAbstract="true">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGX9AL-uEeSLTMJUif1tmg" name="filterItemsForCountry" specification="_W9AloL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGX9Ab-uEeSLTMJUif1tmg" name="country">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGX9Ar-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGX9A7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGX9BL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGX9Bb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Object[] temp = Arrays.stream(foodItems)&#xD;
+				.filter(item -> item.getCountry().equalsIgnoreCase(country))&#xD;
+				.toArray();&#xD;
+		FoodItem[] filteredItems = new FoodItem[temp.length];&#xD;
+		for (int i = 0; i &lt; temp.length; i++) {&#xD;
+			filteredItems[i] = (FoodItem) temp[i];&#xD;
+		}&#xD;
+		return filteredItems;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WDY2AL-uEeSLTMJUif1tmg" name="fetchFoodItems" isAbstract="true" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WDY2Ab-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WDZdEL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDaEIL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9AloL-uEeSLTMJUif1tmg" name="filterItemsForCountry" method="_XGX9AL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9Alob-uEeSLTMJUif1tmg" name="country">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W9Alor-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9BzwL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W9BMsL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9BMsb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9Ca0L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" isAbstract="true">
+          <ownedParameter xmi:id="_W9Ca0b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9FeIL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XCwBQL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XCx2cL-uEeSLTMJUif1tmg" name="printMenu" isAbstract="true" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XCydgL-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XCydgb-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WDinAL-uEeSLTMJUif1tmg" name="JsonHtmlAllDay">
+        <generalization xmi:id="_W9NZ8L-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGYkEL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WDkcML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGYkEb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGYkEr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGYkE7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGZyML-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W9IhcL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGZyMb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGZyMr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGZyM7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType allDayRestaurant = new AllDay();&#xD;
+		return allDayRestaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGZyNL-uEeSLTMJUif1tmg" name="printMenu" specification="_XC2H4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGaZQL-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGaZQb-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new HTMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WDkcML-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGYkEL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WDkcMb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WDlDQL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDlqUL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9IhcL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGZyML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9Ihcb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9LkwL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XC05wL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XC2H4L-uEeSLTMJUif1tmg" name="printMenu" method="_XGZyNL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XC2H4b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XC2H4r-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WFH7YL-uEeSLTMJUif1tmg" name="JsonHtmlDiner">
+        <generalization xmi:id="_W9VVwL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGbAUL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WFLlwL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGbAUb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGbAUr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGbAU7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGbnYL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W9RrYL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGbnYb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGbnYr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGbnY7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new Diner();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGbnZL-uEeSLTMJUif1tmg" name="printMenu" specification="_XC7AYL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGbnZb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGbnZr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new HTMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WFLlwL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGbAUL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WFLlwb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WFNa8L-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WFOCAL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9RrYL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGbnYL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9RrYb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9Tgkb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XC6ZUL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XC7AYL-uEeSLTMJUif1tmg" name="printMenu" method="_XGbnZL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XC7ncL-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XC7ncb-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WF0e8L-uEeSLTMJUif1tmg" name="JsonHtmlEveningOnly">
+        <generalization xmi:id="_W9d4oL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGc1gL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WF27ML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGc1gb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGc1gr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGc1g7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGc1hL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W9ZnML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGc1hb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGc1hr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGc1h7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new EveningOnly();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGdckL-uEeSLTMJUif1tmg" name="printMenu" specification="_XDAf8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGdckb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGdckr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new HTMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WF27ML-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGc1gL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WF3iQL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WF4JUL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WF4wYL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9ZnML-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGc1hL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9ZnMb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9bcYb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XC_R0L-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDAf8L-uEeSLTMJUif1tmg" name="printMenu" method="_XGdckL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDAf8b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDBHAL-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGfNUL-uEeSLTMJUif1tmg" name="JsonTextAllDay">
+        <generalization xmi:id="_W9l0cL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGeDoL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WGjewL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGeDob-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGeDor-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGeDo7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGeqsL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W9gU4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGeqsb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGeqsr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGeqs7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new AllDay();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGf40L-uEeSLTMJUif1tmg" name="printMenu" specification="_XDGmkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGf40b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGf40r-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new TextWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGjewL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGeDoL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WGjewb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGkF0L-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WGkF0b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9gU4L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGeqsL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9g78L-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9j_QL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDFYcL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDGmkL-uEeSLTMJUif1tmg" name="printMenu" method="_XGf40L-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDGmkb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDGmkr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGzWYL-uEeSLTMJUif1tmg" name="JsonTextDiner">
+        <generalization xmi:id="_W9twQL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGgf4L-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WG1LkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGgf4b-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGgf4r-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGgf47-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGhG8L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W9pe0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGhG8b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGhG8r-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGhG87-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new Diner();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGhuAL-uEeSLTMJUif1tmg" name="printMenu" specification="_XDMGIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGhuAb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGhuAr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new TextWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WG1LkL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGgf4L-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WG1Lkb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WG2ZsL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WG2Zsb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9pe0L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGhG8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9pe0b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9r7Eb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDK4AL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDMGIL-uEeSLTMJUif1tmg" name="printMenu" method="_XGhuAL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDMtML-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDMtMb-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WHD1EL-uEeSLTMJUif1tmg" name="JsonTextEveningOnly">
+        <generalization xmi:id="_W91sEL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGiVEL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WICFcL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGiVEb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGiVEr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGiVE7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGjjML-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W9xaoL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGjjMb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGjjMr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGjjM7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new EveningOnly();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGjjNL-uEeSLTMJUif1tmg" name="printMenu" specification="_XDSMwL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGjjNb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGjjNr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new TextWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WICFcL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGiVEL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WICFcb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WICsgL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WIDTkL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W9xaoL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGjjML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W9xaob-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W9zP0b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDQ-oL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDSMwL-uEeSLTMJUif1tmg" name="printMenu" method="_XGjjNL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDSMwb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDSz0L-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WIL2cL-uEeSLTMJUif1tmg" name="JsonXmlAllDay">
+        <generalization xmi:id="_W99A0L-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGkKQL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WINEkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGkKQb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGkKQr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGkKQ7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGkxUL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W94vYL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGkxUb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGkxUr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGkxU7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new AllDay();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGl_cL-uEeSLTMJUif1tmg" name="printMenu" specification="_XDYTYL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGl_cb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGl_cr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new XMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WINEkL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGkKQL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WINroL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WIR9EL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WISkIL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W94vYL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGkxUL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W94vYb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W97Lob-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDXFQL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDYTYL-uEeSLTMJUif1tmg" name="printMenu" method="_XGl_cL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDYTYb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDY6cL-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WIcVIL-uEeSLTMJUif1tmg" name="JsonXmlDiner">
+        <generalization xmi:id="_W-E8oL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGmmgL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WIeKUL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGmmgb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGmmgr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGmmg7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGnNkL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-AEIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGnNkb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGnNkr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGnNk7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new Diner();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGn0oL-uEeSLTMJUif1tmg" name="printMenu" specification="_XDeaAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGn0ob-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGn0or-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new XMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WIeKUL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGmmgL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WIexYL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WIfYcL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WIfYcb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-AEIL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGnNkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-AEIb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-DHcb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDdL4L-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDeaAL-uEeSLTMJUif1tmg" name="printMenu" method="_XGn0oL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDeaAb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDeaAr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WIoiYL-uEeSLTMJUif1tmg" name="JsonXmlEveningOnly">
+        <generalization xmi:id="_W-OtoL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGobsL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WIqXkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGobsb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGobsr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGobs7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new JSONReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGpCwL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-J1IL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGpCwb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGpCwr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGpCw7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new EveningOnly();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGpCxL-uEeSLTMJUif1tmg" name="printMenu" specification="_XDj5kL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGpCxb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGpCxr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new XMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WIqXkL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGobsL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WIqXkb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WIq-oL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WIq-ob-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-J1IL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGpCwL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-KcML-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-MRYL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDiEYL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDj5kL-uEeSLTMJUif1tmg" name="printMenu" method="_XGpCxL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDkgoL-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDkgob-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WI19wL-uEeSLTMJUif1tmg" name="XmlHtmlAllDay">
+        <generalization xmi:id="_W-WCYL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGpp0L-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WI5BEL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGpp0b-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGpp0r-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGpp07-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGqQ4L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-Rw8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGqQ4b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGqQ4r-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGqQ47-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new AllDay();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGq38L-uEeSLTMJUif1tmg" name="printMenu" specification="_XDqAML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGq38b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGq38r-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new HTMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WI5BEL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGpp0L-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WI5oIL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WI5oIb-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WI5oIr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-Rw8L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGqQ4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-Rw8b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-UNMb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDoLAL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDqAML-uEeSLTMJUif1tmg" name="printMenu" method="_XGq38L-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDqAMb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDqAMr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WJFOUL-uEeSLTMJUif1tmg" name="XmlHtmlDiner">
+        <generalization xmi:id="_W-fzYL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGsGEL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WJGccL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGsGEb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGsGEr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGsGE7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGstIL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-aT0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGstIb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGstIr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGstI7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new Diner();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGtUML-uEeSLTMJUif1tmg" name="printMenu" specification="_XDx8AL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGtUMb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGtUMr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new HTMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WJGccL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGsGEL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WJGccb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WJHDgL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WJHDgb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-aT0L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGstIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-aT0b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-cwEb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XDtqkL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XDx8AL-uEeSLTMJUif1tmg" name="printMenu" method="_XGtUML-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XDx8Ab-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XDx8Ar-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WJNxML-uEeSLTMJUif1tmg" name="XmlHtmlEveningOnly">
+        <generalization xmi:id="_W-nvML-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGt7QL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WJ34gL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGt7Qb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGt7Qr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGt7Q7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGuiUL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-i2sL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGuiUb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGuiUr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGuiU7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new EveningOnly();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGuiVL-uEeSLTMJUif1tmg" name="printMenu" specification="_XD3bkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGuiVb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGuiVr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new HTMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WJ34gL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGt7QL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WJ4fkL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WJ5tsL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WJ6UwL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-i2sL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGuiUL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-i2sb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-l6Ab-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XD2NcL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XD3bkL-uEeSLTMJUif1tmg" name="printMenu" method="_XGuiVL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XD3bkb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XD4CoL-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WKCQkL-uEeSLTMJUif1tmg" name="XmlTextAllDay">
+        <generalization xmi:id="_W-vD8L-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGvJYL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WKHJEL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGvJYb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGvJYr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGvJY7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGvwcL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-qLcL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGvwcb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGvwcr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGvwc7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new AllDay();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGwXgL-uEeSLTMJUif1tmg" name="printMenu" specification="_XD-wUL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGwXgb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGwXgr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new TextWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WKHJEL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGvJYL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WKHJEb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WKHwIL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WKIXML-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-qLcL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGvwcL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-qLcb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-snsb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XD87IL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XD-wUL-uEeSLTMJUif1tmg" name="printMenu" method="_XGwXgL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XD-wUb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XD-wUr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WKVLgL-uEeSLTMJUif1tmg" name="XmlTextDiner">
+        <generalization xmi:id="_W-1KkL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGw-kL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WKXnwL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGw-kb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGw-kr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGw-k7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGw-lL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-xgML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGw-lb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGxloL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGxlob-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new Diner();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGyMsL-uEeSLTMJUif1tmg" name="printMenu" specification="_XEE28L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGyMsb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XGyMsr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new TextWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WKXnwL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGw-kL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WKYO0L-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WKY14L-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WKY14b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-xgML-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGw-lL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-yHQL-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-z8cL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEDo0L-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEE28L-uEeSLTMJUif1tmg" name="printMenu" method="_XGyMsL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEE28b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEFeAL-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WKgxsL-uEeSLTMJUif1tmg" name="XmlTextEveningOnly">
+        <generalization xmi:id="_W-74QL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGyzwL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WKjN8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGza0L-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGza0b-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGza0r-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGza07-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W-408L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGza1L-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGza1b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGza1r-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new EveningOnly();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG0B4L-uEeSLTMJUif1tmg" name="printMenu" specification="_XEKWgL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG0B4b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XG0B4r-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new TextWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WKjN8L-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XGyzwL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WKj1AL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WKlqML-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WKlqMb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W-408L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XGza07-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W-408b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W-6DEb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEJIYL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEKWgL-uEeSLTMJUif1tmg" name="printMenu" method="_XG0B4L-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEKWgb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEKWgr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WKwpUL-uEeSLTMJUif1tmg" name="XmlXmlAllDay">
+        <generalization xmi:id="_W_Cl8L-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG0o8L-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WKyegL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG0o8b-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG0o8r-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG0o87-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG1QAL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W--7kL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG1QAb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG1QAr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG1QA7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new AllDay();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG1QBL-uEeSLTMJUif1tmg" name="printMenu" specification="_XEQdIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG1QBb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XG1QBr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new XMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WKyegL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XG0o8L-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WKyegb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WKzFkL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WKzFkb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W--7kL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XG1QAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W--7kb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_BX0L-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEP2EL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEQdIL-uEeSLTMJUif1tmg" name="printMenu" method="_XG1QBL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEREML-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEREMb-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WK9doL-uEeSLTMJUif1tmg" name="XmlXmlDiner">
+        <generalization xmi:id="_W_IskL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG13EL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WK_S0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG13Eb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG13Er-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG13E7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG2eIL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W_FpQL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG2eIb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG2eIr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG2eI7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new Diner();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG3FML-uEeSLTMJUif1tmg" name="printMenu" specification="_XEXK0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG3FMb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XG3FMr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new XMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WK_S0L-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XG13EL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WK_S0b-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WK_54L-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WK_54b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W_FpQL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XG2eIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W_FpQb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_G3Yb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEV8sL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEXK0L-uEeSLTMJUif1tmg" name="printMenu" method="_XG3FML-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEXK0b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEXx4L-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WLMuML-uEeSLTMJUif1tmg" name="XmlXmlEveningOnly">
+        <generalization xmi:id="_W_QoYL-uEeSLTMJUif1tmg" general="_WDXA0L-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG4TUL-uEeSLTMJUif1tmg" name="fetchFoodItems" specification="_WLPxgL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG4TUb-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG4TUr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG4TU7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IReader r = new XMLReader();&#xD;
+		return r.processDocument(inputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG46YL-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" specification="_W_MW8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG46Yb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG46Yr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG46Y7-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IRestaurantType restaurant = new EveningOnly();&#xD;
+		return restaurant.getRelevantFoodItemsByCategory(foodItems);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG46ZL-uEeSLTMJUif1tmg" name="printMenu" specification="_XEdRcL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG46Zb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XG46Zr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IWriter w = new XMLWriter();&#xD;
+		w.createDocument(items, outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WLPxgL-uEeSLTMJUif1tmg" name="fetchFoodItems" method="_XG4TUL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WLQYkL-uEeSLTMJUif1tmg" name="inputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WLSNwL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WLSNwb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_W_MW8L-uEeSLTMJUif1tmg" name="groupItemsByRestaurantCategory" method="_XG46YL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_W_MW8b-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_OMIb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEcDUL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEdRcL-uEeSLTMJUif1tmg" name="printMenu" method="_XG46ZL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEdRcb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEdRcr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V4bjML-uEeSLTMJUif1tmg" name="client">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WCdo8L-uEeSLTMJUif1tmg" name="Client">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGRPUL-uEeSLTMJUif1tmg" name="main" specification="_WCpPIL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGR2YL-uEeSLTMJUif1tmg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XGR2Yb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>BufferedReader br = new BufferedReader(new InputStreamReader(System.in));&#xD;
+&#xD;
+		String jsonInpFilePath = &quot;D:\\Cloud\\Dropbox\\Personal Stuff\\ASU Acads\\Sem 2\\Software Design\\Assignments\\1. Design Patters\\Input\\FoodItemData.json&quot;;&#xD;
+		String xmlInpFilePath = &quot;D:\\Cloud\\Dropbox\\Personal Stuff\\ASU Acads\\Sem 2\\Software Design\\Assignments\\1. Design Patters\\Input\\FoodItemData.xml&quot;;&#xD;
+		String htmlOutFile = &quot;C:\\Users\\Nitin Pasumarthy\\Desktop\\JsonAlldayGBMenu.html&quot;;&#xD;
+		String textOutFile = &quot;C:\\Users\\Nitin Pasumarthy\\Desktop\\JsonAlldayGBMenu.txt&quot;;&#xD;
+		String xmlOutFile = &quot;C:\\Users\\Nitin Pasumarthy\\Desktop\\JsonAlldayGBMenu.xml&quot;;&#xD;
+&#xD;
+		/*&#xD;
+		 * User choice 1) Input file type - JSON, XML 2) Country Code 3)&#xD;
+		 * Restaurant Type - Diner, All Day, Evening Only 4) Output file type -&#xD;
+		 * HTML, Text, XML&#xD;
+		 */&#xD;
+&#xD;
+		System.out.print(&quot;Input file path\t\t: &quot;);&#xD;
+		String inputFilePath = br.readLine().trim();&#xD;
+		String inputType = FilenameUtils.getExtension(inputFilePath)&#xD;
+				.toLowerCase();&#xD;
+&#xD;
+		System.out.print(&quot;Country Code (Eg: GB)\t\t: &quot;);&#xD;
+		String countryCode = br.readLine().trim().toUpperCase();&#xD;
+&#xD;
+		int restaurantType = 0;&#xD;
+		while (restaurantType &lt; 1 || restaurantType > 3) {&#xD;
+			System.out&#xD;
+					.print(&quot;Restaurant type\n 1) All day\n 2) Diner\n 3) Evening Only [1-3]\t: &quot;);&#xD;
+			restaurantType = Integer.parseInt(br.readLine());&#xD;
+		}&#xD;
+&#xD;
+		System.out.print(&quot;Output file path\t: &quot;);&#xD;
+		String outputFilePath = br.readLine().trim();&#xD;
+		String outputType = FilenameUtils.getExtension(outputFilePath)&#xD;
+				.toLowerCase();&#xD;
+&#xD;
+		String userChoice = inputType + restaurantType + outputType;&#xD;
+&#xD;
+		IGenerateMenu menuGenerator = instantiateFactory(userChoice);&#xD;
+&#xD;
+		System.out.println(&quot;Fetching food items...&quot;);&#xD;
+		FoodItem[] allItems = menuGenerator.fetchFoodItems(inputFilePath);&#xD;
+		System.out.println(&quot;Filtering food items for &quot; + countryCode + &quot;...&quot;);&#xD;
+		allItems = menuGenerator.filterItemsForCountry(countryCode, allItems);&#xD;
+		System.out.println(&quot;Generating menu...&quot;);&#xD;
+		Map&lt;FoodItemCategory, FoodItem[]> groupedItems = menuGenerator&#xD;
+				.groupItemsByRestaurantCategory(allItems);&#xD;
+		System.out.println(&quot;Printing menu...&quot;);&#xD;
+		menuGenerator.printMenu(groupedItems, outputFilePath);&#xD;
+		System.out.println(&quot;I am done!&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XGWu4L-uEeSLTMJUif1tmg" name="instantiateFactory" specification="_WDNP0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XGWu4b-uEeSLTMJUif1tmg" name="userChoice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XGWu4r-uEeSLTMJUif1tmg" type="_WDXA0L-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>IGenerateMenu menuGenerator = null;&#xD;
+		switch (userChoice) {&#xD;
+		case &quot;json1html&quot;:&#xD;
+			menuGenerator = new JsonHtmlAllDay();&#xD;
+			break;&#xD;
+		case &quot;json2html&quot;:&#xD;
+			menuGenerator = new JsonHtmlDiner();&#xD;
+			break;&#xD;
+		case &quot;json3html&quot;:&#xD;
+			menuGenerator = new JsonHtmlEveningOnly();&#xD;
+			break;&#xD;
+		case &quot;json1xml&quot;:&#xD;
+			menuGenerator = new JsonXmlAllDay();&#xD;
+			break;&#xD;
+		case &quot;json2xml&quot;:&#xD;
+			menuGenerator = new JsonXmlDiner();&#xD;
+			break;&#xD;
+		case &quot;json3xml&quot;:&#xD;
+			menuGenerator = new JsonXmlEveningOnly();&#xD;
+			break;&#xD;
+		case &quot;json1txt&quot;:&#xD;
+			menuGenerator = new JsonTextAllDay();&#xD;
+			break;&#xD;
+		case &quot;json2txt&quot;:&#xD;
+			menuGenerator = new JsonTextDiner();&#xD;
+			break;&#xD;
+		case &quot;json3txt&quot;:&#xD;
+			menuGenerator = new JsonTextEveningOnly();&#xD;
+			break;&#xD;
+&#xD;
+		case &quot;xml1html&quot;:&#xD;
+			menuGenerator = new XmlHtmlAllDay();&#xD;
+			break;&#xD;
+		case &quot;xml2html&quot;:&#xD;
+			menuGenerator = new XmlHtmlDiner();&#xD;
+			break;&#xD;
+		case &quot;xml3html&quot;:&#xD;
+			menuGenerator = new XmlHtmlEveningOnly();&#xD;
+			break;&#xD;
+		case &quot;xml1xml&quot;:&#xD;
+			menuGenerator = new XmlXmlAllDay();&#xD;
+			break;&#xD;
+		case &quot;xml2xml&quot;:&#xD;
+			menuGenerator = new XmlXmlDiner();&#xD;
+			break;&#xD;
+		case &quot;xml3xml&quot;:&#xD;
+			menuGenerator = new XmlXmlEveningOnly();&#xD;
+			break;&#xD;
+		case &quot;xml1txt&quot;:&#xD;
+			menuGenerator = new XmlTextAllDay();&#xD;
+			break;&#xD;
+		case &quot;xml2txt&quot;:&#xD;
+			menuGenerator = new XmlTextDiner();&#xD;
+			break;&#xD;
+		case &quot;xml3txt&quot;:&#xD;
+			menuGenerator = new XmlTextEveningOnly();&#xD;
+			break;&#xD;
+&#xD;
+		default:&#xD;
+			System.out&#xD;
+					.println(&quot;Incorrect choice!!!\nPlease verfiy these when you try again: 1) All file paths should have extensions also\n 2) Made the right integer choice of restaurant type.&quot;);&#xD;
+			System.exit(-1);&#xD;
+			; // Exiting the program&#xD;
+		}&#xD;
+		return menuGenerator;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WCpPIL-uEeSLTMJUif1tmg" name="main" isStatic="true" method="_XGRPUL-uEeSLTMJUif1tmg" raisedException="_XCVxkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WCp2ML-uEeSLTMJUif1tmg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WC9YML-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WDNP0L-uEeSLTMJUif1tmg" name="instantiateFactory" visibility="private" isStatic="true" method="_XGWu4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WDNP0b-uEeSLTMJUif1tmg" name="userChoice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_W85Q4L-uEeSLTMJUif1tmg" type="_WDXA0L-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V4qzwL-uEeSLTMJUif1tmg" name="readers">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WLfpIL-uEeSLTMJUif1tmg" name="IReader" isAbstract="true">
+        <ownedOperation xmi:id="_WLg3QL-uEeSLTMJUif1tmg" name="processDocument" isAbstract="true" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WLg3Qb-uEeSLTMJUif1tmg" name="path">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WLiFYL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WLiFYb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WLmW0L-uEeSLTMJUif1tmg" name="JSONReader">
+        <generalization xmi:id="_W_bAcL-uEeSLTMJUif1tmg" general="_WLfpIL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG6IgL-uEeSLTMJUif1tmg" name="processDocument" specification="_WLqBML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG6Igb-uEeSLTMJUif1tmg" name="path">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG6Igr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG6Ig7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String inp;&#xD;
+		path = new File(path).getAbsolutePath();&#xD;
+		FoodItem[] items = null;&#xD;
+		try (FileInputStream inputStream = new FileInputStream(path)) {&#xD;
+			inp = IOUtils.toString(inputStream);&#xD;
+		}&#xD;
+&#xD;
+		// Pass to JSON reader&#xD;
+		try {&#xD;
+			JSONObject json = new JSONObject(inp);&#xD;
+&#xD;
+			JSONArray foodItemsInJson = (JSONArray) json.get(&quot;FoodItemData&quot;);&#xD;
+&#xD;
+			int itemsCount = foodItemsInJson.length();&#xD;
+			items = new FoodItem[itemsCount];&#xD;
+&#xD;
+			// Create FoodItem objects&#xD;
+			for (int itemIndex = 0; itemIndex &lt; itemsCount; itemIndex++) {&#xD;
+				JSONObject item = foodItemsInJson.getJSONObject(itemIndex);&#xD;
+&#xD;
+				int id = item.getInt(&quot;id&quot;);&#xD;
+				String name = item.getString(&quot;name&quot;);&#xD;
+				String description = item.getString(&quot;description&quot;);&#xD;
+				String country = item.getString(&quot;-country&quot;);&#xD;
+				float price = Float.parseFloat(item.getString(&quot;price&quot;));&#xD;
+				FoodItemCategory category = FoodItemCategory.getCategory(item&#xD;
+						.getString(&quot;category&quot;));&#xD;
+&#xD;
+				items[itemIndex] = new FoodItem(id, name, description, country,&#xD;
+						price, category);&#xD;
+			}&#xD;
+		} catch (JSONException e) {&#xD;
+			Logger.logErrorIfDebug(&quot;Invalid JSON File&quot;);&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+		return items;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WLqBML-uEeSLTMJUif1tmg" name="processDocument" method="_XG6IgL-uEeSLTMJUif1tmg" raisedException="_W87tIb-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WLqoQL-uEeSLTMJUif1tmg" name="path">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WLr2YL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WLsdcL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WLykEL-uEeSLTMJUif1tmg" name="XMLReader">
+        <generalization xmi:id="_W_l_kb-uEeSLTMJUif1tmg" general="_WLfpIL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XG6vkL-uEeSLTMJUif1tmg" name="processDocument" specification="_WL0ZQL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XG6vkb-uEeSLTMJUif1tmg" name="path">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XG6vkr-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XG6vk7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>FoodItem[] foodItems = null;&#xD;
+		try {&#xD;
+&#xD;
+			// Source:&#xD;
+			// http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser/&#xD;
+			File fXmlFile = new File(path);&#xD;
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory&#xD;
+					.newInstance();&#xD;
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();&#xD;
+			Document doc = dBuilder.parse(fXmlFile);&#xD;
+&#xD;
+			doc.getDocumentElement().normalize();&#xD;
+&#xD;
+			NodeList foodItemNodes = doc.getElementsByTagName(&quot;FoodItem&quot;);&#xD;
+&#xD;
+			foodItems = new FoodItem[foodItemNodes.getLength()];&#xD;
+&#xD;
+			for (int i = 0; i &lt; foodItemNodes.getLength(); i++) {&#xD;
+&#xD;
+				Node node = foodItemNodes.item(i);&#xD;
+&#xD;
+				if (node.getNodeType() == Node.ELEMENT_NODE) {&#xD;
+&#xD;
+					Element foodItemNode = (Element) node;&#xD;
+&#xD;
+					String country = foodItemNode.getAttribute(&quot;country&quot;);&#xD;
+					int id = new Integer(foodItemNode&#xD;
+							.getElementsByTagName(&quot;id&quot;).item(0)&#xD;
+							.getTextContent());&#xD;
+					String name = foodItemNode.getElementsByTagName(&quot;name&quot;)&#xD;
+							.item(0).getTextContent();&#xD;
+					String description = foodItemNode&#xD;
+							.getElementsByTagName(&quot;description&quot;).item(0)&#xD;
+							.getTextContent();&#xD;
+					float price = new Float(foodItemNode&#xD;
+							.getElementsByTagName(&quot;price&quot;).item(0)&#xD;
+							.getTextContent());&#xD;
+					FoodItemCategory category = FoodItemCategory&#xD;
+							.getCategory(foodItemNode&#xD;
+									.getElementsByTagName(&quot;category&quot;).item(0)&#xD;
+									.getTextContent());&#xD;
+&#xD;
+					foodItems[i] = new FoodItem(id, name, description, country,&#xD;
+							price, category);&#xD;
+&#xD;
+				}&#xD;
+			}&#xD;
+		} catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		return foodItems;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WL0ZQL-uEeSLTMJUif1tmg" name="processDocument" method="_XG6vkL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WL1AUL-uEeSLTMJUif1tmg" name="path">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WL2OcL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WL2Ocb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V4ra0L-uEeSLTMJUif1tmg" name="restauranttypes">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WMvmUL-uEeSLTMJUif1tmg" name="AllDay">
+        <generalization xmi:id="_XA61Qb-uEeSLTMJUif1tmg" general="_WM3iIL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHFHob-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" specification="_XA2j0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHFHor-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHFHo7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHFHpL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>FoodItemCategory[] categories = { FoodItemCategory.BREAKFAST,&#xD;
+				FoodItemCategory.SNACK, FoodItemCategory.APPETIZER,&#xD;
+				FoodItemCategory.LUNCH, FoodItemCategory.DINNER,&#xD;
+				FoodItemCategory.DESSERT, FoodItemCategory.SIDE_DISH };&#xD;
+&#xD;
+		Map&lt;FoodItemCategory, FoodItem[]> itemsByCategory = new HashMap&lt;FoodItemCategory, FoodItem[]>();&#xD;
+&#xD;
+		for (FoodItemCategory category : categories) {&#xD;
+			itemsByCategory.put(category, filterByCategory(items, category));&#xD;
+		}&#xD;
+		return itemsByCategory;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XA2j0L-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" method="_XHFHob-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XA3K4L-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XA5nIL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEkmML-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WMyCkL-uEeSLTMJUif1tmg" name="Diner">
+        <generalization xmi:id="_XBHpkL-uEeSLTMJUif1tmg" general="_WM3iIL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHG80L-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" specification="_XA8DYL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHG80b-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHG80r-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHG807-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>FoodItemCategory[] categories = { FoodItemCategory.BREAKFAST,&#xD;
+				FoodItemCategory.SNACK, FoodItemCategory.APPETIZER,&#xD;
+				FoodItemCategory.LUNCH, FoodItemCategory.DESSERT };&#xD;
+&#xD;
+		Map&lt;FoodItemCategory, FoodItem[]> itemsByCategory = new HashMap&lt;FoodItemCategory, FoodItem[]>();&#xD;
+&#xD;
+		for (FoodItemCategory category : categories) {&#xD;
+			itemsByCategory.put(category, filterByCategory(items, category));&#xD;
+		}&#xD;
+		return itemsByCategory;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XA8DYL-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" method="_XHG80L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XA8DYb-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBF0Yb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEmbYL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WM1F4L-uEeSLTMJUif1tmg" name="EveningOnly">
+        <generalization xmi:id="_XBNJIL-uEeSLTMJUif1tmg" general="_WM3iIL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHHj4L-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" specification="_XBI3sL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHHj4b-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHHj4r-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHHj47-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>FoodItemCategory[] categories = { FoodItemCategory.APPETIZER,&#xD;
+				FoodItemCategory.DINNER, FoodItemCategory.DESSERT,&#xD;
+				FoodItemCategory.SIDE_DISH };&#xD;
+&#xD;
+		Map&lt;FoodItemCategory, FoodItem[]> itemsByCategory = new HashMap&lt;FoodItemCategory, FoodItem[]>();&#xD;
+&#xD;
+		for (FoodItemCategory category : categories) {&#xD;
+			itemsByCategory.put(category, filterByCategory(items, category));&#xD;
+		}&#xD;
+		return itemsByCategory;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XBI3sL-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" method="_XHHj4L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XBI3sb-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBLT8b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEnpgL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WM3iIL-uEeSLTMJUif1tmg" name="IRestaurantType" isAbstract="true">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHIK8L-uEeSLTMJUif1tmg" name="filterByCategory" specification="_XBRakL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHIK8b-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHIK8r-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHIK87-uEeSLTMJUif1tmg" name="type" type="_WMS6YL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XHIK9L-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHIK9b-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Object[] temp = Arrays.stream(items)&#xD;
+				.filter(item -> item.getCategory() == type).toArray();&#xD;
+		FoodItem[] filteredItems = new FoodItem[temp.length];&#xD;
+		for (int i = 0; i &lt; temp.length; i++) {&#xD;
+			filteredItems[i] = (FoodItem) temp[i];&#xD;
+		}&#xD;
+		return filteredItems;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XBNwML-uEeSLTMJUif1tmg" name="getRelevantFoodItemsByCategory" isAbstract="true">
+          <ownedParameter xmi:id="_XBOXQL-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBPlYb-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEoQkL-uEeSLTMJUif1tmg" type="_W80YYL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XBRakL-uEeSLTMJUif1tmg" name="filterByCategory" visibility="protected" method="_XHIK8L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XBRakb-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBSosL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XBRakr-uEeSLTMJUif1tmg" name="type" type="_WMS6YL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XBSBoL-uEeSLTMJUif1tmg" type="_WL88IL-uEeSLTMJUif1tmg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBSBob-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V4so8L-uEeSLTMJUif1tmg" name="writers">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WM7zkL-uEeSLTMJUif1tmg" name="HTMLWriter">
+        <generalization xmi:id="_XBs4YL-uEeSLTMJUif1tmg" general="_WNAFAL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHIK9r-uEeSLTMJUif1tmg" name="createDocument" specification="_XEpesL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHIK97-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XHIK-L-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Document document = new Document(DocumentType.XHTMLTransitional);&#xD;
+		document.head.appendChild(new Title().appendChild(new Text(&quot;Menu&quot;)));&#xD;
+		Body body = document.body;&#xD;
+&#xD;
+		// Was asked to use &lt;center> tag&#xD;
+		body.appendChild(new P().setStyle(&quot;text-align:center&quot;).appendChild(new Text(&quot;Menu&quot;)));&#xD;
+&#xD;
+		for (FoodItemCategory category : foodCategoriesPrintOrder) {&#xD;
+			if (items.containsKey(category)) {&#xD;
+				body.appendChild(new H1().appendChild(new Text(category&#xD;
+						.toString().toUpperCase())));&#xD;
+				body.appendChild(getHtmlForItems(items.get(category)));&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// Save as a HTML file&#xD;
+		saveAsFile(document.write(), outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHIyAL-uEeSLTMJUif1tmg" name="getHtmlForItems" specification="_XBrDML-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHIyAb-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHIyAr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHIyA7-uEeSLTMJUif1tmg" type="_XBp1EL-uEeSLTMJUif1tmg" direction="return"/>
+          <language>java</language>
+          <body>Ul itemsList = new Ul();&#xD;
+		for (FoodItem item : items) {&#xD;
+			Li foodDetail = new Li();&#xD;
+			foodDetail.appendChild(new Text(item.getName()));&#xD;
+			foodDetail.appendChild(new Br());&#xD;
+			foodDetail.appendChild(new I().appendChild(new Text(item&#xD;
+					.getDescription())));&#xD;
+			foodDetail.appendChild(new Br());&#xD;
+			// TODO: Add the currency code&#xD;
+			foodDetail.appendChild(new Text(item.getFormattedPrice(&quot;&quot;)));&#xD;
+			itemsList.appendChild(foodDetail);&#xD;
+		}&#xD;
+		return itemsList;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XBrDML-uEeSLTMJUif1tmg" name="getHtmlForItems" visibility="private" method="_XHIyAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XBrqQL-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBsRUL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEuXML-uEeSLTMJUif1tmg" type="_XBp1EL-uEeSLTMJUif1tmg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEpesL-uEeSLTMJUif1tmg" name="createDocument" method="_XHIK9r-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEqFwL-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEqFwb-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WNAFAL-uEeSLTMJUif1tmg" name="IWriter" isAbstract="true">
+        <ownedAttribute xmi:id="_XFWCQL-uEeSLTMJUif1tmg" name="foodCategoriesPrintOrder" visibility="protected" isLeaf="true" type="_WMS6YL-uEeSLTMJUif1tmg" isReadOnly="true">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XFWCQb-uEeSLTMJUif1tmg" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_XFXQYb-uEeSLTMJUif1tmg" value="{&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.BREAKFAST, FoodItemCategory.SNACK,&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.APPETIZER, FoodItemCategory.LUNCH,&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.DINNER, FoodItemCategory.DESSERT,&#xD;&#xA;&#x9;&#x9;&#x9;FoodItemCategory.SIDE_DISH }"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHJZEL-uEeSLTMJUif1tmg" name="saveAsFile" specification="_WNChQL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHJZEb-uEeSLTMJUif1tmg" name="content">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHJZEr-uEeSLTMJUif1tmg" name="filename">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String filepath = new File(filename).getAbsolutePath(); &#xD;
+		PrintWriter printer = new PrintWriter(new FileOutputStream(filepath));&#xD;
+		printer.println(content);&#xD;
+		printer.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WNChQL-uEeSLTMJUif1tmg" name="saveAsFile" visibility="protected" isLeaf="true" method="_XHJZEL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_WNChQb-uEeSLTMJUif1tmg" name="content">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WNDIUL-uEeSLTMJUif1tmg" name="filename">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEwMYL-uEeSLTMJUif1tmg" name="createDocument" isAbstract="true" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XEwMYb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XEwMYr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WNGLoL-uEeSLTMJUif1tmg" name="TextWriter">
+        <generalization xmi:id="_XB2CUL-uEeSLTMJUif1tmg" general="_WNAFAL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHKnML-uEeSLTMJUif1tmg" name="createDocument" specification="_XE0d0L-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHKnMb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XHKnMr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>StringBuilder output = new StringBuilder(&quot;Menu\n\n\n&quot;);&#xD;
+&#xD;
+		for (FoodItemCategory category : foodCategoriesPrintOrder) {&#xD;
+			if (items.containsKey(category)) {&#xD;
+				output.append(category.toString().toUpperCase() + &quot;\n\n&quot;);&#xD;
+				output.append(getTextForItems(items.get(category)));&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// Save as a Text file&#xD;
+		saveAsFile(output.toString(), outputFilePath);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHLOQL-uEeSLTMJUif1tmg" name="getTextForItems" specification="_XBzmEL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHLOQb-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHLOQr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHLOQ7-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>StringBuilder text = new StringBuilder();&#xD;
+		for (FoodItem item : items) {&#xD;
+			// TODO: Should add currency code for Price&#xD;
+			text.append(item.getName() + &quot;\t\t\t&quot; + item.getFormattedPrice(&quot;&quot;)&#xD;
+					+ &quot;\n&quot;);&#xD;
+			text.append(item.getDescription() + &quot;\n\n&quot;);&#xD;
+		}&#xD;
+		return text.toString();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XBzmEL-uEeSLTMJUif1tmg" name="getTextForItems" visibility="private" method="_XHLOQL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XB0NIL-uEeSLTMJUif1tmg" name="items" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XB1bQL-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XB0NIb-uEeSLTMJUif1tmg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XE0d0L-uEeSLTMJUif1tmg" name="createDocument" method="_XHKnML-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XE0d0b-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XE0d0r-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WNKdEL-uEeSLTMJUif1tmg" name="XMLWriter">
+        <generalization xmi:id="_XCBogL-uEeSLTMJUif1tmg" general="_WNAFAL-uEeSLTMJUif1tmg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHMcYL-uEeSLTMJUif1tmg" name="createDocument" specification="_XE59YL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHMcYb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XHMcYr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>DocumentBuilderFactory docFactory = DocumentBuilderFactory&#xD;
+				.newInstance();&#xD;
+		DocumentBuilder docBuilder;&#xD;
+		try {&#xD;
+			docBuilder = docFactory.newDocumentBuilder();&#xD;
+&#xD;
+			Document doc = docBuilder.newDocument();&#xD;
+			Element rootElement = doc.createElement(&quot;MenuItems&quot;);&#xD;
+			doc.appendChild(rootElement);&#xD;
+&#xD;
+			for (FoodItemCategory category : foodCategoriesPrintOrder) {&#xD;
+				if (items.containsKey(category)) {&#xD;
+					Element categoryNode = doc.createElement(&quot;MenuCategory&quot;);&#xD;
+					categoryNode.setAttribute(&quot;category&quot;, category.toString()&#xD;
+							.toUpperCase());&#xD;
+					appendXmlForItems(items.get(category), categoryNode, doc);&#xD;
+					rootElement.appendChild(categoryNode);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			// write the content into xml file&#xD;
+			// Source:&#xD;
+			// http://www.mkyong.com/java/how-to-create-xml-file-in-java-dom/&#xD;
+			TransformerFactory transformerFactory = TransformerFactory&#xD;
+					.newInstance();&#xD;
+			Transformer transformer = transformerFactory.newTransformer();&#xD;
+			DOMSource source = new DOMSource(doc);&#xD;
+			StreamResult result = new StreamResult(new File(outputFilePath));&#xD;
+			transformer.transform(source, result);&#xD;
+&#xD;
+		} catch (ParserConfigurationException e) {&#xD;
+			e.printStackTrace();&#xD;
+		} catch (TransformerException tfe) {&#xD;
+			tfe.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XHNqgL-uEeSLTMJUif1tmg" name="appendXmlForItems" specification="_XE9AsL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XHNqgb-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XHNqgr-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XHNqg7-uEeSLTMJUif1tmg" name="categoryNode" type="_W_kxcb-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XHNqhL-uEeSLTMJUif1tmg" name="doc" type="_W_f48b-uEeSLTMJUif1tmg"/>
+          <language>java</language>
+          <body>for (FoodItem item : foodItems) {&#xD;
+&#xD;
+			Element menuItemNode = doc.createElement(&quot;MenuItem&quot;);&#xD;
+			Element nameNode = doc.createElement(&quot;Name&quot;);&#xD;
+			Text nameTextNode = doc.createTextNode(item.getName());&#xD;
+			nameNode.appendChild(nameTextNode);&#xD;
+			menuItemNode.appendChild(nameNode);&#xD;
+&#xD;
+			Element priceNode = doc.createElement(&quot;Price&quot;);&#xD;
+			// TODO: Get the right currency code&#xD;
+			Text currencyCodeTextNode = doc.createTextNode(&quot;&quot;);&#xD;
+			Element currencyCodeNode = doc.createElement(&quot;&quot;);&#xD;
+			currencyCodeNode.appendChild(currencyCodeTextNode);&#xD;
+			priceNode.appendChild(currencyCodeNode);&#xD;
+&#xD;
+			Text amountTextNode = doc.createTextNode(item.getFormattedPrice(&quot;&quot;));&#xD;
+			Element amountNode = doc.createElement(&quot;Amount&quot;);&#xD;
+			amountNode.appendChild(amountTextNode);&#xD;
+			priceNode.appendChild(amountNode);&#xD;
+&#xD;
+			menuItemNode.appendChild(priceNode);&#xD;
+&#xD;
+			Element descriptionNode = doc.createElement(&quot;Description&quot;);&#xD;
+			Text descriptionTextNode = doc.createTextNode(item.getDescription()); &#xD;
+			descriptionNode.appendChild(descriptionTextNode);&#xD;
+			menuItemNode.appendChild(descriptionNode);&#xD;
+&#xD;
+			categoryNode.appendChild(menuItemNode);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_XE59YL-uEeSLTMJUif1tmg" name="createDocument" method="_XHMcYL-uEeSLTMJUif1tmg" raisedException="_W86fAL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XE59Yb-uEeSLTMJUif1tmg" name="items" type="_W80YYL-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XE59Yr-uEeSLTMJUif1tmg" name="outputFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XE9AsL-uEeSLTMJUif1tmg" name="appendXmlForItems" visibility="private" method="_XHNqgL-uEeSLTMJUif1tmg">
+          <ownedParameter xmi:id="_XE9nwL-uEeSLTMJUif1tmg" name="foodItems" type="_WL88IL-uEeSLTMJUif1tmg">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XE9nw7-uEeSLTMJUif1tmg" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XE9nwb-uEeSLTMJUif1tmg" name="categoryNode" type="_W_kxcb-uEeSLTMJUif1tmg"/>
+          <ownedParameter xmi:id="_XE9nwr-uEeSLTMJUif1tmg" name="doc" type="_W_f48b-uEeSLTMJUif1tmg"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V-a2cL-uEeSLTMJUif1tmg" name="utilities">
+      <packagedElement xmi:type="uml:Class" xmi:id="_W_ZyUL-uEeSLTMJUif1tmg" name="Logger"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V-d5wL-uEeSLTMJUif1tmg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_V-fH4L-uEeSLTMJUif1tmg" name="xml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_V-gWAL-uEeSLTMJUif1tmg" name="parsers">
+          <packagedElement xmi:type="uml:Class" xmi:id="_W_bngL-uEeSLTMJUif1tmg" name="DocumentBuilderFactory"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_W_eq0b-uEeSLTMJUif1tmg" name="DocumentBuilder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XB3QcL-uEeSLTMJUif1tmg" name="ParserConfigurationException"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_WA8mAL-uEeSLTMJUif1tmg" name="transform">
+          <packagedElement xmi:type="uml:Package" xmi:id="_WA9NEL-uEeSLTMJUif1tmg" name="dom">
+            <packagedElement xmi:type="uml:Class" xmi:id="_XB8wAL-uEeSLTMJUif1tmg" name="DOMSource"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_WA90IL-uEeSLTMJUif1tmg" name="stream">
+            <packagedElement xmi:type="uml:Class" xmi:id="_XB9-Ib-uEeSLTMJUif1tmg" name="StreamResult"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XB4ekL-uEeSLTMJUif1tmg" name="Transformer"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XB5ssL-uEeSLTMJUif1tmg" name="TransformerException"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XB7h4L-uEeSLTMJUif1tmg" name="TransformerFactory"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WAwYwL-uEeSLTMJUif1tmg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WAwYwb-uEeSLTMJUif1tmg" name="hp">
+        <packagedElement xmi:type="uml:Package" xmi:id="_WAw_0L-uEeSLTMJUif1tmg" name="gagawa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_WAw_0b-uEeSLTMJUif1tmg" name="java">
+            <packagedElement xmi:type="uml:Package" xmi:id="_WAxm4L-uEeSLTMJUif1tmg" name="elements">
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBVsAb-uEeSLTMJUif1tmg" name="Body"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBYIQb-uEeSLTMJUif1tmg" name="Br"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBZWYb-uEeSLTMJUif1tmg" name="H1"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBakgL-uEeSLTMJUif1tmg" name="I"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBbLkb-uEeSLTMJUif1tmg" name="Li"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBljoL-uEeSLTMJUif1tmg" name="P"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBmxwL-uEeSLTMJUif1tmg" name="Text"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBnY0b-uEeSLTMJUif1tmg" name="Title"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_XBp1EL-uEeSLTMJUif1tmg" name="Ul"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_XBT20L-uEeSLTMJUif1tmg" name="Document"/>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_XBUd4b-uEeSLTMJUif1tmg" name="DocumentType"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_TzTpwL-uEeSLTMJUif1tmg">
+      <eAnnotations xmi:id="_TzcMoL-uEeSLTMJUif1tmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_T0EewL-uEeSLTMJUif1tmg" base_Package="_SZCEIL-uEeSLTMJUif1tmg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WC8KEL-uEeSLTMJUif1tmg" base_Element="_WCpPIL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_WC9_QL-uEeSLTMJUif1tmg" base_Element="_WCp2ML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WDBCkL-uEeSLTMJUif1tmg" base_Element="_WCpPIL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WDF7EL-uEeSLTMJUif1tmg" name="SuppressWarnings">
+      <annotationParameters xmi:id="_WDHJML-uEeSLTMJUif1tmg" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_XHSjAL-uEeSLTMJUif1tmg" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WDaEIb-uEeSLTMJUif1tmg" base_Element="_WDY2AL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_WDlqUb-uEeSLTMJUif1tmg" base_Element="_WDkcML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WDmRYL-uEeSLTMJUif1tmg" base_Element="_WDkcML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WDnfgL-uEeSLTMJUif1tmg" base_Element="_WDkcML-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WDnfgb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WFOpEL-uEeSLTMJUif1tmg" base_Element="_WFLlwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WFP3ML-uEeSLTMJUif1tmg" base_Element="_WFLlwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WFRsYL-uEeSLTMJUif1tmg" base_Element="_WFLlwL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WFRsYb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WF5-gL-uEeSLTMJUif1tmg" base_Element="_WF27ML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WF7MoL-uEeSLTMJUif1tmg" base_Element="_WF27ML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WF9B0L-uEeSLTMJUif1tmg" base_Element="_WF27ML-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WF9o4L-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WGks4L-uEeSLTMJUif1tmg" base_Element="_WGjewL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGlT8L-uEeSLTMJUif1tmg" base_Element="_WGjewL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WGoXQL-uEeSLTMJUif1tmg" base_Element="_WGjewL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WGoXQb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WG3AwL-uEeSLTMJUif1tmg" base_Element="_WG1LkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WG3n0L-uEeSLTMJUif1tmg" base_Element="_WG1LkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WG418L-uEeSLTMJUif1tmg" base_Element="_WG1LkL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WG418b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WIDTkb-uEeSLTMJUif1tmg" base_Element="_WICFcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WID6oL-uEeSLTMJUif1tmg" base_Element="_WICFcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WIGW4L-uEeSLTMJUif1tmg" base_Element="_WICFcL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WIG98L-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WIUZUL-uEeSLTMJUif1tmg" base_Element="_WINEkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WIVAYL-uEeSLTMJUif1tmg" base_Element="_WINEkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WIWOgL-uEeSLTMJUif1tmg" base_Element="_WINEkL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WIW1kL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WIf_gL-uEeSLTMJUif1tmg" base_Element="_WIeKUL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WIgmkL-uEeSLTMJUif1tmg" base_Element="_WIeKUL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WIibwL-uEeSLTMJUif1tmg" base_Element="_WIeKUL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WIjC0L-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WIrlsL-uEeSLTMJUif1tmg" base_Element="_WIqXkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WIsMwL-uEeSLTMJUif1tmg" base_Element="_WIqXkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WIupAL-uEeSLTMJUif1tmg" base_Element="_WIqXkL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WIupAb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WI6PML-uEeSLTMJUif1tmg" base_Element="_WI5BEL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WI7dUL-uEeSLTMJUif1tmg" base_Element="_WI5BEL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WI8rcL-uEeSLTMJUif1tmg" base_Element="_WI5BEL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WI8rcb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WJHqkL-uEeSLTMJUif1tmg" base_Element="_WJGccL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WJHqkb-uEeSLTMJUif1tmg" base_Element="_WJGccL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WJI4sL-uEeSLTMJUif1tmg" base_Element="_WJGccL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WJI4sb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WJ670L-uEeSLTMJUif1tmg" base_Element="_WJ34gL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WJ8J8L-uEeSLTMJUif1tmg" base_Element="_WJ34gL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WJ8xAL-uEeSLTMJUif1tmg" base_Element="_WJ34gL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WJ8xAb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WKNPsL-uEeSLTMJUif1tmg" base_Element="_WKHJEL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WKPE4L-uEeSLTMJUif1tmg" base_Element="_WKHJEL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WKPr8L-uEeSLTMJUif1tmg" base_Element="_WKHJEL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WKPr8b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WKY14r-uEeSLTMJUif1tmg" base_Element="_WKXnwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WKZc8L-uEeSLTMJUif1tmg" base_Element="_WKXnwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WKarEL-uEeSLTMJUif1tmg" base_Element="_WKXnwL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WKarEb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WKmRQL-uEeSLTMJUif1tmg" base_Element="_WKjN8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WKoGcL-uEeSLTMJUif1tmg" base_Element="_WKjN8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WKpUkL-uEeSLTMJUif1tmg" base_Element="_WKjN8L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WKpUkb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WKzsoL-uEeSLTMJUif1tmg" base_Element="_WKyegL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WK06wL-uEeSLTMJUif1tmg" base_Element="_WKyegL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WK2I4L-uEeSLTMJUif1tmg" base_Element="_WKyegL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WK2I4b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WK_54r-uEeSLTMJUif1tmg" base_Element="_WK_S0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WLBIAL-uEeSLTMJUif1tmg" base_Element="_WK_S0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WLBvEL-uEeSLTMJUif1tmg" base_Element="_WK_S0L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WLCWIL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WLTb4L-uEeSLTMJUif1tmg" base_Element="_WLPxgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WLUC8L-uEeSLTMJUif1tmg" base_Element="_WLPxgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WLV4IL-uEeSLTMJUif1tmg" base_Element="_WLPxgL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WLV4Ib-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WLjTgL-uEeSLTMJUif1tmg" dimensions="1" base_Element="_WLg3QL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WLkhoL-uEeSLTMJUif1tmg" base_Element="_WLg3QL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_WLtrkL-uEeSLTMJUif1tmg" base_Element="_WLqBML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WLuSoL-uEeSLTMJUif1tmg" base_Element="_WLqBML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WLwH0L-uEeSLTMJUif1tmg" base_Element="_WLqBML-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WLwH0b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WL21gL-uEeSLTMJUif1tmg" base_Element="_WL0ZQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WL6f4L-uEeSLTMJUif1tmg" base_Element="_WL0ZQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WL7G8L-uEeSLTMJUif1tmg" base_Element="_WL0ZQL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WL7G8b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WMJwcL-uEeSLTMJUif1tmg" base_Element="_WMIiUL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_WMK-kL-uEeSLTMJUif1tmg" base_Element="_WMIiUL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_WMK-kb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_W8vf4L-uEeSLTMJUif1tmg" base_Element="_W8uRwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W8zxUL-uEeSLTMJUif1tmg" base_Element="_W8yjML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W81mgL-uEeSLTMJUif1tmg" base_Element="_W80YYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W820oL-uEeSLTMJUif1tmg" base_Element="_W81mgb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W87tIL-uEeSLTMJUif1tmg" base_Element="_W86fAL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W8-JYL-uEeSLTMJUif1tmg" base_Element="_W87tIb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W8_XgL-uEeSLTMJUif1tmg" base_Element="_W8-wcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9BMsr-uEeSLTMJUif1tmg" base_Element="_W9AloL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_W9E3EL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9Ca0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_W9K9sL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9IhcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W9K9sb-uEeSLTMJUif1tmg" base_Element="_W9IhcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9ML0L-uEeSLTMJUif1tmg" base_Element="_W9Ihcb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W9My4L-uEeSLTMJUif1tmg" base_Element="_W9IhcL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W9My4b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W9S5gL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9RrYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W9TgkL-uEeSLTMJUif1tmg" base_Element="_W9RrYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9UHoL-uEeSLTMJUif1tmg" base_Element="_W9RrYb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W9UusL-uEeSLTMJUif1tmg" base_Element="_W9RrYL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W9Uusb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W9a1UL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9ZnML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W9bcYL-uEeSLTMJUif1tmg" base_Element="_W9ZnML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9cDcL-uEeSLTMJUif1tmg" base_Element="_W9ZnMb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W9dRkL-uEeSLTMJUif1tmg" base_Element="_W9ZnML-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W9dRkb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W9ixIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9gU4L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W9jYML-uEeSLTMJUif1tmg" base_Element="_W9gU4L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9j_Qb-uEeSLTMJUif1tmg" base_Element="_W9g78L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W9lNYL-uEeSLTMJUif1tmg" base_Element="_W9gU4L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W9lNYb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W9rUAL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9pe0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W9r7EL-uEeSLTMJUif1tmg" base_Element="_W9pe0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9siIL-uEeSLTMJUif1tmg" base_Element="_W9pe0b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W9tJML-uEeSLTMJUif1tmg" base_Element="_W9pe0L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W9tJMb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W9yowL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W9xaoL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W9zP0L-uEeSLTMJUif1tmg" base_Element="_W9xaoL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W9z24L-uEeSLTMJUif1tmg" base_Element="_W9xaob-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W91FAL-uEeSLTMJUif1tmg" base_Element="_W9xaoL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W91FAb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W959gL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W94vYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W97LoL-uEeSLTMJUif1tmg" base_Element="_W94vYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W97ysL-uEeSLTMJUif1tmg" base_Element="_W94vYb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W98ZwL-uEeSLTMJUif1tmg" base_Element="_W94vYL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W98Zwb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-CgYL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-AEIL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-DHcL-uEeSLTMJUif1tmg" base_Element="_W-AEIL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-DugL-uEeSLTMJUif1tmg" base_Element="_W-AEIb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-EVkL-uEeSLTMJUif1tmg" base_Element="_W-AEIL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-EVkb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-LDQL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-J1IL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-LqUL-uEeSLTMJUif1tmg" base_Element="_W-J1IL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-MRYb-uEeSLTMJUif1tmg" base_Element="_W-KcML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-OGkL-uEeSLTMJUif1tmg" base_Element="_W-J1IL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-OGkb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-TmIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-Rw8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-UNML-uEeSLTMJUif1tmg" base_Element="_W-Rw8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-U0QL-uEeSLTMJUif1tmg" base_Element="_W-Rw8b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-VbUL-uEeSLTMJUif1tmg" base_Element="_W-Rw8L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-VbUb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-cJAL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-aT0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-cwEL-uEeSLTMJUif1tmg" base_Element="_W-aT0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-dXIL-uEeSLTMJUif1tmg" base_Element="_W-aT0b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-elQL-uEeSLTMJUif1tmg" base_Element="_W-aT0L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-elQb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-kr4L-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-i2sL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-l6AL-uEeSLTMJUif1tmg" base_Element="_W-i2sL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-mhEL-uEeSLTMJUif1tmg" base_Element="_W-i2sb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-nIIL-uEeSLTMJUif1tmg" base_Element="_W-i2sL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-nIIb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-sAoL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-qLcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-snsL-uEeSLTMJUif1tmg" base_Element="_W-qLcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-tOwL-uEeSLTMJUif1tmg" base_Element="_W-qLcb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-t10L-uEeSLTMJUif1tmg" base_Element="_W-qLcL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-uc4L-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-yuUL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-xgML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-zVYL-uEeSLTMJUif1tmg" base_Element="_W-xgML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-z8cb-uEeSLTMJUif1tmg" base_Element="_W-yHQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-0jgL-uEeSLTMJUif1tmg" base_Element="_W-xgML-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-0jgb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-5cAL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W-408L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W-6DEL-uEeSLTMJUif1tmg" base_Element="_W-408L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W-6qIL-uEeSLTMJUif1tmg" base_Element="_W-408b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W-6qIb-uEeSLTMJUif1tmg" base_Element="_W-408L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W-7RML-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W-_ioL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W--7kL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W_AwwL-uEeSLTMJUif1tmg" base_Element="_W--7kL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W_BX0b-uEeSLTMJUif1tmg" base_Element="_W--7kb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W_B-4L-uEeSLTMJUif1tmg" base_Element="_W--7kL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W_B-4b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W_GQUL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W_FpQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W_G3YL-uEeSLTMJUif1tmg" base_Element="_W_FpQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W_HecL-uEeSLTMJUif1tmg" base_Element="_W_FpQb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W_IFgL-uEeSLTMJUif1tmg" base_Element="_W_FpQL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W_IFgb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_W_NlEL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_W_MW8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_W_OMIL-uEeSLTMJUif1tmg" base_Element="_W_MW8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_W_OMIr-uEeSLTMJUif1tmg" base_Element="_W_MW8b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_W_PaQL-uEeSLTMJUif1tmg" base_Element="_W_MW8L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_W_PaQb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_W_TrsL-uEeSLTMJUif1tmg" base_Element="_W_SdkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_U50L-uEeSLTMJUif1tmg" base_Element="_W_Trsb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_Vg4L-uEeSLTMJUif1tmg" base_Element="_W_U50b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_XWEL-uEeSLTMJUif1tmg" base_Element="_W_WvAL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_YkML-uEeSLTMJUif1tmg" base_Element="_W_X9IL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_ZLQL-uEeSLTMJUif1tmg" base_Element="_W_YkMb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_aZYL-uEeSLTMJUif1tmg" base_Element="_W_ZyUL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_eq0L-uEeSLTMJUif1tmg" base_Element="_W_bngL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_f48L-uEeSLTMJUif1tmg" base_Element="_W_eq0b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_ggAL-uEeSLTMJUif1tmg" base_Element="_W_f48b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_huIL-uEeSLTMJUif1tmg" base_Element="_W_hHEL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_kxcL-uEeSLTMJUif1tmg" base_Element="_W_iVML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_l_kL-uEeSLTMJUif1tmg" base_Element="_W_kxcb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_W_n0wL-uEeSLTMJUif1tmg" base_Element="_W_mmoL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XAuoAL-uEeSLTMJUif1tmg" base_Element="_XAtZ4L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XA5AEL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XA2j0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XA5AEb-uEeSLTMJUif1tmg" base_Element="_XA2j0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_XA5nIb-uEeSLTMJUif1tmg" base_Element="_XA3K4L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XA6OML-uEeSLTMJUif1tmg" base_Element="_XA2j0L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XA61QL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XA9RgL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XA8DYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XBF0YL-uEeSLTMJUif1tmg" base_Element="_XA8DYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_XBGbcL-uEeSLTMJUif1tmg" base_Element="_XA8DYb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XBHCgL-uEeSLTMJUif1tmg" base_Element="_XA8DYL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XBHCgb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XBKs4L-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XBI3sL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XBLT8L-uEeSLTMJUif1tmg" base_Element="_XBI3sL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_XBL7AL-uEeSLTMJUif1tmg" base_Element="_XBI3sb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XBMiEL-uEeSLTMJUif1tmg" base_Element="_XBI3sL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XBMiEb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_XBO-UL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XBNwML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XBPlYL-uEeSLTMJUif1tmg" base_Element="_XBNwML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_XBQzgL-uEeSLTMJUif1tmg" base_Element="_XBOXQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_XBSBor-uEeSLTMJUif1tmg" base_Element="_XBRakL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBUd4L-uEeSLTMJUif1tmg" base_Element="_XBT20L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBVsAL-uEeSLTMJUif1tmg" base_Element="_XBUd4b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBYIQL-uEeSLTMJUif1tmg" base_Element="_XBVsAb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBZWYL-uEeSLTMJUif1tmg" base_Element="_XBYIQb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBZ9cL-uEeSLTMJUif1tmg" base_Element="_XBZWYb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBbLkL-uEeSLTMJUif1tmg" base_Element="_XBakgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBk8kL-uEeSLTMJUif1tmg" base_Element="_XBbLkb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBmKsL-uEeSLTMJUif1tmg" base_Element="_XBljoL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBnY0L-uEeSLTMJUif1tmg" base_Element="_XBmxwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBpOAL-uEeSLTMJUif1tmg" base_Element="_XBnY0b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBqcIL-uEeSLTMJUif1tmg" base_Element="_XBp1EL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBv7sL-uEeSLTMJUif1tmg" base_Element="_XBvUoL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XBxJ0L-uEeSLTMJUif1tmg" base_Element="_XBwiwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB33gL-uEeSLTMJUif1tmg" base_Element="_XB3QcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB5FoL-uEeSLTMJUif1tmg" base_Element="_XB4ekL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB6TwL-uEeSLTMJUif1tmg" base_Element="_XB5ssL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB8I8L-uEeSLTMJUif1tmg" base_Element="_XB7h4L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB9-IL-uEeSLTMJUif1tmg" base_Element="_XB8wAL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB-lML-uEeSLTMJUif1tmg" base_Element="_XB9-Ib-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XB_zUL-uEeSLTMJUif1tmg" base_Element="_XB_MQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Reference xmi:id="_XCWYoL-uEeSLTMJUif1tmg" base_Element="_XCVxkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XCzroL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XCydgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XC2u8L-uEeSLTMJUif1tmg" base_Element="_XC2H4L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XC3WAL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XC2H4b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XC4kIL-uEeSLTMJUif1tmg" base_Element="_XC2H4L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XC4kIb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XC8OgL-uEeSLTMJUif1tmg" base_Element="_XC7AYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XC81kL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XC7ncL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XC9coL-uEeSLTMJUif1tmg" base_Element="_XC7AYL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XC9cob-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDBuEL-uEeSLTMJUif1tmg" base_Element="_XDAf8L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDCVIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDAf8b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDC8ML-uEeSLTMJUif1tmg" base_Element="_XDAf8L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDC8Mb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDHNoL-uEeSLTMJUif1tmg" base_Element="_XDGmkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDIbwL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDGmkb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDJC0L-uEeSLTMJUif1tmg" base_Element="_XDGmkL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDJC0b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDNUQL-uEeSLTMJUif1tmg" base_Element="_XDMGIL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDN7UL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDMtML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDOiYL-uEeSLTMJUif1tmg" base_Element="_XDMGIL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDOiYb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDSz0b-uEeSLTMJUif1tmg" base_Element="_XDSMwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDUB8L-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDSMwb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDUpAL-uEeSLTMJUif1tmg" base_Element="_XDSMwL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDUpAb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDY6cb-uEeSLTMJUif1tmg" base_Element="_XDYTYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDaIkL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDYTYb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDavoL-uEeSLTMJUif1tmg" base_Element="_XDYTYL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDavob-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDfBEL-uEeSLTMJUif1tmg" base_Element="_XDeaAL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDfoIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDeaAb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDgPML-uEeSLTMJUif1tmg" base_Element="_XDeaAL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDg2QL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDlHsL-uEeSLTMJUif1tmg" base_Element="_XDj5kL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDluwL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDkgoL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDmV0L-uEeSLTMJUif1tmg" base_Element="_XDj5kL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDmV0b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDqnQL-uEeSLTMJUif1tmg" base_Element="_XDqAML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDrOUL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDqAMb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XDr1YL-uEeSLTMJUif1tmg" base_Element="_XDqAML-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XDsccL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XDyjEL-uEeSLTMJUif1tmg" base_Element="_XDx8AL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XDzKIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XDx8Ab-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XD0YQL-uEeSLTMJUif1tmg" base_Element="_XDx8AL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XD0YQb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XD4psL-uEeSLTMJUif1tmg" base_Element="_XD3bkL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XD5QwL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XD3bkb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XD6e4L-uEeSLTMJUif1tmg" base_Element="_XD3bkL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XD6e4b-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XD_XYL-uEeSLTMJUif1tmg" base_Element="_XD-wUL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XEAlgL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XD-wUb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEBzoL-uEeSLTMJUif1tmg" base_Element="_XD-wUL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEBzob-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XEFeAb-uEeSLTMJUif1tmg" base_Element="_XEE28L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XEGsIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEE28b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEH6QL-uEeSLTMJUif1tmg" base_Element="_XEE28L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEH6Qb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XEK9kL-uEeSLTMJUif1tmg" base_Element="_XEKWgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XEMLsL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEKWgb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEMywL-uEeSLTMJUif1tmg" base_Element="_XEKWgL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEMywb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XERrQL-uEeSLTMJUif1tmg" base_Element="_XEQdIL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XES5YL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEREML-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEUHgL-uEeSLTMJUif1tmg" base_Element="_XEQdIL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEUukL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XEYY8L-uEeSLTMJUif1tmg" base_Element="_XEXK0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XEZnEL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEXK0b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEa1ML-uEeSLTMJUif1tmg" base_Element="_XEXK0L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEa1Mb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XEd4gL-uEeSLTMJUif1tmg" base_Element="_XEdRcL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XEfGoL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEdRcb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEgUwL-uEeSLTMJUif1tmg" base_Element="_XEdRcL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEgUwb-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XEqs0L-uEeSLTMJUif1tmg" base_Element="_XEpesL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XEsiAL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEqFwL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XEtJEL-uEeSLTMJUif1tmg" base_Element="_XEpesL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XEtwIL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XEwzcL-uEeSLTMJUif1tmg" base_Element="_XEwMYL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XExagL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XEwMYb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XE2TAL-uEeSLTMJUif1tmg" base_Element="_XE0d0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XE3hIL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XE0d0b-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XE4IML-uEeSLTMJUif1tmg" base_Element="_XE0d0L-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XE4vQL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XE6kcL-uEeSLTMJUif1tmg" base_Element="_XE59YL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Generics xmi:id="_XE7LgL-uEeSLTMJUif1tmg" genericsValue="FoodItemCategory, FoodItem[]" base_Element="_XE59Yb-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Annotations xmi:id="_XE7ykL-uEeSLTMJUif1tmg" base_Element="_XE59YL-uEeSLTMJUif1tmg">
+    <annotations xmi:id="_XE8ZoL-uEeSLTMJUif1tmg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XFJN8L-uEeSLTMJUif1tmg" base_Element="_XFH_0L-uEeSLTMJUif1tmg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XFLqML-uEeSLTMJUif1tmg" name="getName" method="_XG7WoL-uEeSLTMJUif1tmg">
+      <ownedParameter xmi:id="_XFMRQL-uEeSLTMJUif1tmg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_XFLqMb-uEeSLTMJUif1tmg" name="setName" method="_XG7Wor-uEeSLTMJUif1tmg">
+      <ownedParameter xmi:id="_XFLqMr-uEeSLTMJUif1tmg" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:MultiDeclaration xmi:id="_XFJ1AL-uEeSLTMJUif1tmg" base_Property="_XFH_0L-uEeSLTMJUif1tmg" siblings="_XHXbgL-uEeSLTMJUif1tmg _XHYpob-uEeSLTMJUif1tmg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XFS-8L-uEeSLTMJUif1tmg" base_Element="_XFRw0L-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XFU0IL-uEeSLTMJUif1tmg" base_Element="_XFUNEL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:Array xmi:id="_XFXQYL-uEeSLTMJUif1tmg" base_Element="_XFWCQL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XFX3cL-uEeSLTMJUif1tmg" base_Element="_XFWCQL-uEeSLTMJUif1tmg"/>
+  <uml:OpaqueBehavior xmi:id="_XG7WoL-uEeSLTMJUif1tmg" name="getName" specification="_XFLqML-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XG7Wob-uEeSLTMJUif1tmg" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XG7Wor-uEeSLTMJUif1tmg" name="setName" specification="_XFLqMb-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XG79sL-uEeSLTMJUif1tmg" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.name = name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XHCrYL-uEeSLTMJUif1tmg" name="FoodItemCategory" specification="_WMcEUL-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XHCrYb-uEeSLTMJUif1tmg" name="displayName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_XHCrYr-uEeSLTMJUif1tmg" type="_WMS6YL-uEeSLTMJUif1tmg" direction="return"/>
+    <language>java</language>
+    <body>this.displayName = displayName;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XHDScL-uEeSLTMJUif1tmg" name="getCategory" specification="_WMd5gL-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XHDScb-uEeSLTMJUif1tmg" name="category">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_XHDScr-uEeSLTMJUif1tmg" type="_WMS6YL-uEeSLTMJUif1tmg" direction="return"/>
+    <language>java</language>
+    <body>if (category.equalsIgnoreCase(&quot;Breakfast&quot;))&#xD;
+			return FoodItemCategory.BREAKFAST;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Lunch&quot;))&#xD;
+			return FoodItemCategory.LUNCH;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Snack&quot;))&#xD;
+			return FoodItemCategory.SNACK;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Side Dish&quot;))&#xD;
+			return FoodItemCategory.SIDE_DISH;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Appetizer&quot;))&#xD;
+			return FoodItemCategory.APPETIZER;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Dinner&quot;))&#xD;
+			return FoodItemCategory.DINNER;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Dessert&quot;))&#xD;
+			return FoodItemCategory.DESSERT;&#xD;
+&#xD;
+		return FoodItemCategory.UNKNOWN;&#xD;
+&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XHDSc7-uEeSLTMJUif1tmg" name="toString" specification="_WMfHoL-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XHD5gL-uEeSLTMJUif1tmg" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.displayName;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XHD5gb-uEeSLTMJUif1tmg" name="RestaurantCategory" specification="_WMo4oL-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XHEgkL-uEeSLTMJUif1tmg" name="displayName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_XHEgkb-uEeSLTMJUif1tmg" type="_WMiyAL-uEeSLTMJUif1tmg" direction="return"/>
+    <language>java</language>
+    <body>this.displayName = displayName;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XHEgkr-uEeSLTMJUif1tmg" name="getCategory" specification="_WMqGwL-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XHEgk7-uEeSLTMJUif1tmg" name="category">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_XHEglL-uEeSLTMJUif1tmg" type="_WMS6YL-uEeSLTMJUif1tmg" direction="return"/>
+    <language>java</language>
+    <body>if (category.equalsIgnoreCase(&quot;Breakfast&quot;))&#xD;
+			return FoodItemCategory.BREAKFAST;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Lunch&quot;))&#xD;
+			return FoodItemCategory.LUNCH;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Snack&quot;))&#xD;
+			return FoodItemCategory.SNACK;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Side Items&quot;))&#xD;
+			return FoodItemCategory.SIDE_DISH;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Appetizer&quot;))&#xD;
+			return FoodItemCategory.APPETIZER;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Dinner&quot;))&#xD;
+			return FoodItemCategory.DINNER;&#xD;
+&#xD;
+		if (category.equalsIgnoreCase(&quot;Dessert&quot;))&#xD;
+			return FoodItemCategory.DESSERT;&#xD;
+&#xD;
+		return FoodItemCategory.UNKNOWN;&#xD;
+&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_XHEglb-uEeSLTMJUif1tmg" name="toString" specification="_WMrU4L-uEeSLTMJUif1tmg">
+    <ownedParameter xmi:id="_XHFHoL-uEeSLTMJUif1tmg" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.displayName;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_XHYCkL-uEeSLTMJUif1tmg" base_Property="_XHXbgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XHYpoL-uEeSLTMJUif1tmg" base_Element="_XHXbgL-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_XHZQsL-uEeSLTMJUif1tmg" base_Property="_XHYpob-uEeSLTMJUif1tmg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_XHZQsb-uEeSLTMJUif1tmg" base_Element="_XHYpob-uEeSLTMJUif1tmg"/>
+</xmi:XMI>
